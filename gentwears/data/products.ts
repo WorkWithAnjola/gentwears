@@ -2,6 +2,7 @@ import { Product, Review } from "@/types";
 import { img } from "@/lib/utils";
 
 export const PRODUCTS: Product[] = [
+  // ===================== CLOTHING (unchanged) =====================
   {
     id: 1,
     slug: "obsidian-tailored-blazer",
@@ -9,7 +10,7 @@ export const PRODUCTS: Product[] = [
     price: 128000,
     category: "Clothing",
     collection: "Signature",
-    images: [img("photo-1520975954732-35dd22299614"), img("photo-1594938298603-c8148c4dae35")],
+    images: ["/products/obsidian-tailored-blazer-1.jpg", "/products/obsidian-tailored-blazer-2.jpg"],
     sizes: ["S", "M", "L", "XL"],
     description:
       "Cut from a heavyweight wool blend, the Obsidian Blazer is built for the man who commands a room without raising his voice. Structured shoulders, a nipped waist, and a single gold-lined interior pocket.",
@@ -22,7 +23,7 @@ export const PRODUCTS: Product[] = [
     price: 42000,
     category: "Clothing",
     collection: "New Arrivals",
-    images: [img("photo-1596755094514-f87e34085b2c"), img("photo-1596755094514-f87e34085b2c")],
+    images: ["/products/ivory-crepe-shirt-1.jpg", "/products/ivory-crepe-shirt-2.jpg"],
     sizes: ["S", "M", "L", "XL"],
     description:
       "A crepe-weave shirt with a soft drape and a mother-of-pearl button placket. Pairs as easily with denim as it does under the Obsidian Blazer.",
@@ -35,7 +36,7 @@ export const PRODUCTS: Product[] = [
     price: 68000,
     category: "Clothing",
     collection: "Signature",
-    images: [img("photo-1517445312882-bc9910d016b7"), img("photo-1517445312882-bc9910d016b7")],
+    images: ["/products/sable-wide-leg-trouser-1.jpg", "/products/sable-wide-leg-trouser-2.jpg"],
     sizes: ["30", "32", "34", "36"],
     description:
       "High-rise, wide-leg tailoring in brushed sable twill. Deep pockets, a clean break at the ankle, and a fit that moves with you.",
@@ -48,49 +49,10 @@ export const PRODUCTS: Product[] = [
     price: 165000,
     category: "Clothing",
     collection: "Signature",
-    images: [img("photo-1544022613-e87ca75a784a"), img("photo-1544022613-e87ca75a784a")],
+    images: ["/products/camel-overcoat-1.jpg", "/products/camel-overcoat-2.jpg"],
     sizes: ["M", "L", "XL"],
     description:
       "An heirloom-weight overcoat in camel wool, lined in gold-flecked silk. The kind of piece you hand down, not replace.",
-    tag: "",
-  },
-  {
-    id: 5,
-    slug: "gentwears-ivory-sneaker",
-    name: "Gentwears Ivory Sneaker",
-    price: 58000,
-    category: "Shoes",
-    collection: "New Arrivals",
-    images: [img("photo-1549298916-b41d501d3772"), img("photo-1595950653106-6c9ebd614d3a")],
-    sizes: ["40", "41", "42", "43", "44", "45"],
-    description:
-      "A minimal court silhouette in full-grain ivory leather with gold-tipped laces. Unisex last, street-ready, boardroom-clean.",
-    tag: "New",
-  },
-  {
-    id: 6,
-    slug: "onyx-chelsea-boot",
-    name: "Onyx Chelsea Boot",
-    price: 96000,
-    category: "Shoes",
-    collection: "Signature",
-    images: [img("photo-1520639888713-7851133b1ed0"), img("photo-1520639888713-7851133b1ed0")],
-    sizes: ["40", "41", "42", "43", "44", "45"],
-    description:
-      "Hand-burnished calfskin, elastic side gussets, a stacked leather heel. Built to be worn until it's broken in, never broken down.",
-    tag: "Best Seller",
-  },
-  {
-    id: 7,
-    slug: "sand-low-top",
-    name: "Sand Low-Top",
-    price: 52000,
-    category: "Shoes",
-    collection: "New Arrivals",
-    images: [img("photo-1552346154-21d32810aba3"), img("photo-1552346154-21d32810aba3")],
-    sizes: ["40", "41", "42", "43", "44", "45"],
-    description:
-      "A quiet-luxury low-top in sand suede with a natural gum sole. Unisex fit, made to age gracefully.",
     tag: "",
   },
   {
@@ -100,16 +62,210 @@ export const PRODUCTS: Product[] = [
     price: 38000,
     category: "Clothing",
     collection: "New Arrivals",
-    images: [img("photo-1618354691373-d851c5c3a990"), img("photo-1618354691373-d851c5c3a990")],
+    images: ["/products/charcoal-knit-polo-1.jpg", "/products/charcoal-knit-polo-2.jpg"],
     sizes: ["S", "M", "L", "XL"],
     description:
       "Fine-gauge merino knit with a ribbed placket and horn buttons. Elevated basics, done properly.",
     tag: "",
   },
+
+  // ===================== SHOES — SIGNATURE COLLECTION =====================
+  {
+    id: 5,
+    slug: "gentwears-ivory-sneaker",
+    name: "Gentwears Ivory Sneaker",
+    brand: "Gentwears",
+    model: "Signature Court GS-01",
+    price: 58000,
+    category: "Shoes",
+    shoeCollection: "Signature Collection",
+    collection: "New Arrivals",
+    images: ["/products/gentwears-ivory-sneaker-1.jpg", "/products/gentwears-ivory-sneaker-2.jpg"],
+    sizes: ["40", "41", "42", "43", "44", "45"],
+    description:
+      "A minimal court silhouette in full-grain ivory leather with gold-tipped laces. Unisex last, street-ready, boardroom-clean. The flagship shoe of the Gentwears house line.",
+    tag: "New",
+  },
+  {
+    id: 6,
+    slug: "onyx-chelsea-boot",
+    name: "Onyx Chelsea Boot",
+    brand: "Gentwears",
+    model: "Signature Chelsea GS-02",
+    price: 96000,
+    category: "Shoes",
+    shoeCollection: "Signature Collection",
+    collection: "Signature",
+    images: ["/products/onyx-chelsea-boot-1.jpg", "/products/onyx-chelsea-boot-2.jpg"],
+    sizes: ["40", "41", "42", "43", "44", "45"],
+    description:
+      "Hand-burnished calfskin, elastic side gussets, a stacked leather heel. Built to be worn until it's broken in, never broken down.",
+    tag: "Best Seller",
+  },
+
+  // ===================== SHOES — LUXURY SNEAKERS =====================
+  {
+    id: 9,
+    slug: "aurelio-leather-low",
+    name: "Aurelio Leather Low",
+    brand: "Gentwears",
+    model: "Aurelio LX-01",
+    price: 145000,
+    category: "Shoes",
+    shoeCollection: "Luxury Sneakers",
+    collection: "Signature",
+    images: ["/products/aurelio-leather-low-1.jpg", "/products/aurelio-leather-low-2.jpg"],
+    sizes: ["40", "41", "42", "43", "44", "45"],
+    description:
+      "Nappa leather upper hand-finished with a burnished toe cap, gold-plated eyelets, and a hand-stitched welt. Made in small batches for a marketplace that values craft over volume.",
+    tag: "Best Seller",
+  },
+  {
+    id: 10,
+    slug: "marchetti-monk-sneaker",
+    name: "Marchetti Monk Sneaker",
+    brand: "Gentwears",
+    model: "Marchetti LX-02",
+    price: 158000,
+    category: "Shoes",
+    shoeCollection: "Luxury Sneakers",
+    collection: "New Arrivals",
+    images: ["/products/marchetti-monk-sneaker-1.jpg", "/products/marchetti-monk-sneaker-2.jpg"],
+    sizes: ["40", "41", "42", "43", "44", "45"],
+    description:
+      "A double monk-strap silhouette reimagined as a sneaker — Italian calfskin, a cushioned sneaker sole, and brushed gold buckles for a formal-meets-street statement.",
+    tag: "New",
+  },
+
+  // ===================== SHOES — STREETWEAR SNEAKERS =====================
+  {
+    id: 11,
+    slug: "vandal-hi-top",
+    name: "Vandal Hi-Top",
+    brand: "Gentwears",
+    model: "Vandal ST-01",
+    price: 72000,
+    category: "Shoes",
+    shoeCollection: "Streetwear Sneakers",
+    collection: "New Arrivals",
+    images: ["/products/vandal-hi-top-1.jpg", "/products/vandal-hi-top-2.jpg"],
+    sizes: ["40", "41", "42", "43", "44", "45"],
+    description:
+      "Chunky rubber outsole, panelled canvas-and-suede upper, oversized eyelets. Built for a heavier stance and a bolder silhouette on the street.",
+    tag: "New",
+  },
+  {
+    id: 12,
+    slug: "riot-canvas-runner",
+    name: "Riot Canvas Runner",
+    brand: "Gentwears",
+    model: "Riot ST-02",
+    price: 64000,
+    category: "Shoes",
+    shoeCollection: "Streetwear Sneakers",
+    collection: "New Arrivals",
+    images: ["/products/riot-canvas-runner-1.jpg", "/products/riot-canvas-runner-2.jpg"],
+    sizes: ["40", "41", "42", "43", "44", "45"],
+    description:
+      "Washed canvas upper over a reflective midsole, finished with a contrast gold lace lock. Everyday streetwear with a technical edge.",
+    tag: "",
+  },
+
+  // ===================== SHOES — EVERYDAY SNEAKERS =====================
+  {
+    id: 7,
+    slug: "sand-low-top",
+    name: "Sand Low-Top",
+    brand: "Gentwears",
+    model: "Sand EV-01",
+    price: 52000,
+    category: "Shoes",
+    shoeCollection: "Everyday Sneakers",
+    collection: "New Arrivals",
+    images: ["/products/sand-low-top-1.jpg", "/products/sand-low-top-2.jpg"],
+    sizes: ["40", "41", "42", "43", "44", "45"],
+    description:
+      "A quiet-luxury low-top in sand suede with a natural gum sole. Unisex fit, made to age gracefully — the everyday staple of the collection.",
+    tag: "",
+  },
+  {
+    id: 13,
+    slug: "linen-slip-on",
+    name: "Linen Slip-On",
+    brand: "Gentwears",
+    model: "Linen EV-02",
+    price: 45000,
+    category: "Shoes",
+    shoeCollection: "Everyday Sneakers",
+    collection: "New Arrivals",
+    images: ["/products/linen-slip-on-1.jpg", "/products/linen-slip-on-2.jpg"],
+    sizes: ["40", "41", "42", "43", "44", "45"],
+    description:
+      "Breathable linen-blend upper, elastic side panels, a lightweight EVA sole. No laces, no fuss — built for hot days and quick errands.",
+    tag: "",
+  },
+  {
+    id: 14,
+    slug: "harbor-boat-sneaker",
+    name: "Harbor Boat Sneaker",
+    brand: "Gentwears",
+    model: "Harbor EV-03",
+    price: 49000,
+    category: "Shoes",
+    shoeCollection: "Everyday Sneakers",
+    collection: "Signature",
+    images: ["/products/harbor-boat-sneaker-1.jpg", "/products/harbor-boat-sneaker-2.jpg"],
+    sizes: ["40", "41", "42", "43", "44", "45"],
+    description:
+      "Classic boat-shoe styling rebuilt on a sneaker sole — waxed cotton laces, a moc-toe front, and a non-marking rubber outsole for all-day wear.",
+    tag: "Best Seller",
+  },
+  // ===================== SHOES — BOOTS =====================
+  {
+    id: 15,
+    slug: "waxed-derby-boot",
+    name: "Waxed Derby Boot",
+    brand: "Gentwears",
+    model: "Derby BT-01",
+    price: 112000,
+    category: "Shoes",
+    shoeCollection: "Boots",
+    collection: "Signature",
+    images: ["/products/waxed-derby-boot-1.jpg", "/products/waxed-derby-boot-2.jpg"],
+    sizes: ["40", "41", "42", "43", "44", "45"],
+    description:
+      "Waxed full-grain leather, a Goodyear-welted sole, and brass eyelets. Built for weather, finished for the boardroom.",
+    tag: "",
+  },
+  {
+    id: 16,
+    slug: "combat-lace-boot",
+    name: "Combat Lace Boot",
+    brand: "Gentwears",
+    model: "Combat BT-02",
+    price: 98000,
+    category: "Shoes",
+    shoeCollection: "Boots",
+    collection: "New Arrivals",
+    images: ["/products/combat-lace-boot-1.jpg", "/products/combat-lace-boot-2.jpg"],
+    sizes: ["40", "41", "42", "43", "44", "45"],
+    description:
+      "A rugged, six-eyelet combat silhouette in matte black leather with a chunky lugged sole — streetwear-ready with real winter utility.",
+    tag: "New",
+  },
 ];
+
+export const SHOE_COLLECTIONS = [
+  "Signature Collection",
+  "Luxury Sneakers",
+  "Streetwear Sneakers",
+  "Everyday Sneakers",
+  "Boots",
+] as const;
 
 export const REVIEWS: Review[] = [
   { name: "Damilola A.", rating: 5, text: "The Obsidian Blazer fits like it was made for me. Fabric feels genuinely premium, not fast-fashion premium." },
   { name: "Chidi O.", rating: 5, text: "Ordered the Chelsea boots — arrived fast, packaging alone felt like a luxury unboxing. Wearing them weekly." },
   { name: "Tobi K.", rating: 4, text: "Great quality, sizing runs slightly large so go one down. Customer service on WhatsApp was quick and helpful." },
+  { name: "Ngozi E.", rating: 5, text: "The Aurelio Leather Low is worth every naira — genuinely feels like a luxury sneaker, not a marked-up basic." },
 ];
