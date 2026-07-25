@@ -10,12 +10,19 @@ import SearchBar from "@/components/shop/SearchBar";
 function ShopContent() {
   const params = useSearchParams();
   const initialCategory = params.get("category") || "All";
+  const initialBrand = params.get("brand") || "All";
   const [category, setCategory] = useState(initialCategory);
+  const [brand, setBrand] = useState(initialBrand);
   const [search, setSearch] = useState("");
 
   const filtered = useMemo(
-    () => PRODUCTS.filter((p) => category === "All" || p.category === category),
-    [category]
+    () =>
+      PRODUCTS.filter(
+        (p) =>
+          (category === "All" || p.category === category) &&
+          (brand === "All" || p.retailBrand === brand)
+      ),
+    [category, brand]
   );
 
   return (
@@ -24,7 +31,7 @@ function ShopContent() {
       <h1 className="font-display text-4xl md:text-5xl mb-10">The Full Edit</h1>
 
       <div className="flex flex-col md:flex-row gap-10">
-        <ShopFilters category={category} setCategory={setCategory} />
+        <ShopFilters category={category} setCategory={setCategory} brand={brand} setBrand={setBrand} />
         <div className="flex-1">
           <SearchBar value={search} onChange={setSearch} />
           <ShopGrid products={filtered} search={search} />
