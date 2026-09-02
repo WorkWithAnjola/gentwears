@@ -7,6 +7,9 @@ import { formatNaira } from "@/lib/utils";
 import { useCart } from "@/context/CartContext";
 import { useWishlist } from "@/context/WishlistContext";
 import Button from "@/components/ui/Button";
+import SizeGuide from "./SizeGuide";
+import WhatsAppBuyButton from "./WhatsAppBuyButton";
+import DeliveryReturns from "./DeliveryReturns";
 
 export default function ProductInfo({ product }: { product: Product }) {
   const [size, setSize] = useState(product.sizes[0]);
@@ -16,12 +19,26 @@ export default function ProductInfo({ product }: { product: Product }) {
 
   return (
     <div className="pt-2">
-      <p className="text-xs tracking-[0.2em] uppercase text-gold mb-3">{product.collection}</p>
-      <h1 className="font-display text-4xl mb-3">{product.name}</h1>
+      <p className="text-xs tracking-[0.2em] uppercase text-gold mb-3">
+        {product.shoeCollection || product.collection}
+      </p>
+      <h1 className="font-display text-4xl mb-2">{product.name}</h1>
+
+      {(product.brand || product.model) && (
+        <p className="text-sm text-muted mb-4">
+          {product.brand && <span>Brand: {product.brand}</span>}
+          {product.brand && product.model && <span className="mx-2">·</span>}
+          {product.model && <span>Model: {product.model}</span>}
+        </p>
+      )}
+
       <p className="text-xl mb-6">{formatNaira(product.price)}</p>
       <p className="text-stone leading-relaxed mb-8">{product.description}</p>
 
-      <p className="text-xs tracking-[0.2em] uppercase text-muted mb-3">Size</p>
+      <div className="flex items-center justify-between mb-3">
+        <p className="text-xs tracking-[0.2em] uppercase text-muted">Size</p>
+        <SizeGuide product={product} />
+      </div>
       <div className="flex flex-wrap gap-2 mb-8">
         {product.sizes.map((s) => (
           <button
@@ -36,7 +53,7 @@ export default function ProductInfo({ product }: { product: Product }) {
         ))}
       </div>
 
-      <div className="flex gap-3 mb-10">
+      <div className="flex gap-3 mb-3">
         <Button variant="solid" className="flex-1" onClick={() => addToCart(product, size)}>
           Add to Cart
         </Button>
@@ -49,11 +66,11 @@ export default function ProductInfo({ product }: { product: Product }) {
         </button>
       </div>
 
-      <div className="border-t border-ink/10 pt-6 space-y-2 text-sm text-stone">
-        <p>— Free delivery within Lagos on orders over ₦75,000</p>
-        <p>— 7-day exchange window</p>
-        <p>— Nationwide shipping available</p>
+      <div className="mb-10">
+        <WhatsAppBuyButton product={product} size={size} />
       </div>
+
+      <DeliveryReturns />
     </div>
   );
 }
