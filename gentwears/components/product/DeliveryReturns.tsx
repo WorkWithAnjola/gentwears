@@ -30,7 +30,7 @@ export default function DeliveryReturns() {
       </AccordionItem>
       <AccordionItem icon={RefreshCw} title="Returns & Exchanges">
         <p className="mb-2">
-          Items can be exchanged within 7 days of delivery, provided they're unworn and in original
+          Items can be exchanged within 7 days of delivery, provided they are unworn and in original
           packaging with tags attached.
         </p>
         <p>
