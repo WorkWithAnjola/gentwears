@@ -3,6 +3,7 @@ import { PRODUCTS } from "@/data/products";
 import ProductGallery from "@/components/product/ProductGallery";
 import ProductInfo from "@/components/product/ProductInfo";
 import RelatedProducts from "@/components/product/RelatedProducts";
+import ProductReviews from "@/components/product/ProductReviews";
 
 export function generateStaticParams() {
   return PRODUCTS.map((p) => ({ slug: p.slug }));
@@ -23,6 +24,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
         <ProductGallery product={product} />
         <ProductInfo product={product} />
       </div>
+      <ProductReviews />
       <RelatedProducts products={related} />
     </section>
   );
