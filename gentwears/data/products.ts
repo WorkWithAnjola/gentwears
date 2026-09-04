@@ -210,7 +210,7 @@ export const products = [
     brand: "Adidas",
     price: 82000,
     category: "Sneakers",
-    images: ["/products/adidas-samba-og-1.jpg", "/products/adidas-samba-og-2.jpg"],
+    images: ["/products/adidas-samba-og-1.JPG", "/products/adidas-samba-og-2.JPG"],
     slug: "adidas-samba-og"
   },
   {
@@ -219,7 +219,7 @@ export const products = [
     brand: "Adidas",
     price: 85000,
     category: "Sneakers",
-    images: ["/products/adidas-gazelle-indoor-1.jpg", "/products/adidas-gazelle-indoor-2.jpg"],
+    images: ["/products/adidas-gazelle-indoor-1.JPG", "/products/adidas-gazelle-indoor-2.JPG"],
     slug: "adidas-gazelle-indoor"
   },
   {
@@ -228,7 +228,7 @@ export const products = [
     brand: "Adidas",
     price: 88000,
     category: "Sneakers",
-    images: ["/products/adidas-campus-00s-1.jpg", "/products/adidas-campus-00s-2.jpg"],
+    images: ["/products/adidas-campus-00s-1.JPG", "/products/adidas-campus-00s-2.JPG"],
     slug: "adidas-campus-00s"
   },
   {
@@ -237,7 +237,7 @@ export const products = [
     brand: "Adidas",
     price: 125000,
     category: "Sneakers",
-    images: ["/products/adidas-yeezy-boost-350-v2-1.jpg", "/products/adidas-yeezy-boost-350-v2-2.jpg"],
+    images: ["/products/adidas-yeezy-boost-350-v2-1.JPG", "/products/adidas-yeezy-boost-350-v2-2.JPG"],
     slug: "adidas-yeezy-boost-350-v2"
   },
   {
@@ -246,7 +246,7 @@ export const products = [
     brand: "Adidas",
     price: 75000,
     category: "Sneakers",
-    images: ["/products/adidas-stan-smith-1.jpg", "/products/adidas-stan-smith-2.jpg"],
+    images: ["/products/adidas-stan-smith-1.JPG", "/products/adidas-stan-smith-2.JPG"],
     slug: "adidas-stan-smith"
   },
   {
@@ -255,7 +255,7 @@ export const products = [
     brand: "Adidas",
     price: 78000,
     category: "Sneakers",
-    images: ["/products/adidas-superstar-1.jpg", "/products/adidas-superstar-2.jpg"],
+    images: ["/products/adidas-superstar-1.JPG", "/products/adidas-superstar-2.JPG"],
     slug: "adidas-superstar"
   },
   {
@@ -264,7 +264,7 @@ export const products = [
     brand: "Adidas",
     price: 85000,
     category: "Sneakers",
-    images: ["/products/adidas-forum-low-1.jpg", "/products/adidas-forum-low-2.jpg"],
+    images: ["/products/adidas-forum-low-1.JPG", "/products/adidas-forum-low-2.JPG"],
     slug: "adidas-forum-low"
   },
   {
@@ -273,7 +273,7 @@ export const products = [
     brand: "Adidas",
     price: 86000,
     category: "Sneakers",
-    images: ["/products/adidas-spezial-1.jpg", "/products/adidas-spezial-2.jpg"],
+    images: ["/products/adidas-spezial-1.JPG", "/products/adidas-spezial-2.JPG"],
     slug: "adidas-spezial"
   },
   {
@@ -282,7 +282,7 @@ export const products = [
     brand: "Adidas",
     price: 80000,
     category: "Sneakers",
-    images: ["/products/adidas-nmd-r1-1.jpg", "/products/adidas-nmd-r1-2.jpg"],
+    images: ["/products/adidas-nmd-r1-1.JPG", "/products/adidas-nmd-r1-2.JPG"],
     slug: "adidas-nmd-r1"
   },
   {
@@ -291,7 +291,7 @@ export const products = [
     brand: "Adidas",
     price: 105000,
     category: "Sneakers",
-    images: ["/products/adidas-ultraboost-light-1.jpg", "/products/adidas-ultraboost-light-2.jpg"],
+    images: ["/products/adidas-ultraboost-light-1.JPG", "/products/adidas-ultraboost-light-2.JPG"],
     slug: "adidas-ultraboost-light"
   },
 
@@ -302,7 +302,7 @@ export const products = [
     brand: "New Balance",
     price: 88000,
     category: "Sneakers",
-    images: ["/products/new-balance-550-1.jpg", "/products/new-balance-550-2.jpg"],
+    images: ["/products/new-balance-550-1.JPG", "/products/new-balance-550-2.JPG"],
     slug: "new-balance-550"
   },
   {
@@ -311,7 +311,7 @@ export const products = [
     brand: "New Balance",
     price: 115000,
     category: "Sneakers",
-    images: ["/products/new-balance-9060-1.jpg", "/products/new-balance-9060-2.jpg"],
+    images: ["/products/new-balance-9060-1.JPG", "/products/new-balance-9060-2.JPG"],
     slug: "new-balance-9060"
   },
   {
@@ -320,7 +320,7 @@ export const products = [
     brand: "New Balance",
     price: 105000,
     category: "Sneakers",
-    images: ["/products/new-balance-2002r-1.jpg", "/products/new-balance-2002r-2.jpg"],
+    images: ["/products/new-balance-2002r-1.JPG", "/products/new-balance-2002r-2.JPG"],
     slug: "new-balance-2002r"
   },
   {
@@ -329,7 +329,7 @@ export const products = [
     brand: "New Balance",
     price: 78000,
     category: "Sneakers",
-    images: ["/products/new-balance-327-1.jpg", "/products/new-balance-327-2.jpg"],
+    images: ["/products/new-balance-327-1.JPG", "/products/new-balance-327-2.JPG"],
     slug: "new-balance-327"
   },
   {
@@ -338,7 +338,7 @@ export const products = [
     brand: "New Balance",
     price: 130000,
     category: "Sneakers",
-    images: ["/products/new-balance-990v6-1.jpg", "/products/new-balance-990v6-2.jpg"],
+    images: ["/products/new-balance-990v6-1.JPG", "/products/new-balance-990v6-2.JPG"],
     slug: "new-balance-990v6"
   },
   {
@@ -347,7 +347,7 @@ export const products = [
     brand: "New Balance",
     price: 70000,
     category: "Sneakers",
-    images: ["/products/new-balance-574-1.jpg", "/products/new-balance-574-2.jpg"],
+    images: ["/products/new-balance-574-1.JPG", "/products/new-balance-574-2.JPG"],
     slug: "new-balance-574"
   },
   {
@@ -356,7 +356,7 @@ export const products = [
     brand: "New Balance",
     price: 110000,
     category: "Sneakers",
-    images: ["/products/new-balance-1906r-1.jpg", "/products/new-balance-1906r-2.jpg"],
+    images: ["/products/new-balance-1906r-1.JPG", "/products/new-balance-1906r-2.JPG"],
     slug: "new-balance-1906r"
   },
   {
@@ -365,7 +365,7 @@ export const products = [
     brand: "New Balance",
     price: 125000,
     category: "Sneakers",
-    images: ["/products/new-balance-993-1.jpg", "/products/new-balance-993-2.jpg"],
+    images: ["/products/new-balance-993-1.JPG", "/products/new-balance-993-2.JPG"],
     slug: "new-balance-993"
   },
   {
@@ -374,7 +374,7 @@ export const products = [
     brand: "New Balance",
     price: 92000,
     category: "Sneakers",
-    images: ["/products/new-balance-650-1.jpg", "/products/new-balance-650-2.jpg"],
+    images: ["/products/new-balance-650-1.JPG", "/products/new-balance-650-2.JPG"],
     slug: "new-balance-650"
   },
   {
@@ -383,7 +383,7 @@ export const products = [
     brand: "New Balance",
     price: 118000,
     category: "Sneakers",
-    images: ["/products/new-balance-more-trail-1.jpg", "/products/new-balance-more-trail-2.jpg"],
+    images: ["/products/new-balance-more-trail-1.JPG", "/products/new-balance-more-trail-2.JPG"],
     slug: "new-balance-more-trail"
   },
 
@@ -394,7 +394,7 @@ export const products = [
     brand: "Rick Owens",
     price: 250000,
     category: "Sneakers",
-    images: ["/products/rick-owens-geobasket-1.jpg", "/products/rick-owens-geobasket-2.jpg"],
+    images: ["/products/rick-owens-geobasket-1.JPG", "/products/rick-owens-geobasket-2.JPG"],
     slug: "rick-owens-geobasket"
   },
   {
@@ -403,7 +403,7 @@ export const products = [
     brand: "Rick Owens",
     price: 190000,
     category: "Sneakers",
-    images: ["/products/rick-owens-ramones-canvas-low-1.jpg", "/products/rick-owens-ramones-canvas-low-2.jpg"],
+    images: ["/products/rick-owens-ramones-canvas-low-1.JPG", "/products/rick-owens-ramones-canvas-low-2.JPG"],
     slug: "rick-owens-ramones-canvas-low"
   },
   {
@@ -412,7 +412,7 @@ export const products = [
     brand: "Rick Owens",
     price: 210000,
     category: "Sneakers",
-    images: ["/products/rick-owens-ramones-high-1.jpg", "/products/rick-owens-ramones-high-2.jpg"],
+    images: ["/products/rick-owens-ramones-high-1.JPG", "/products/rick-owens-ramones-high-2.JPG"],
     slug: "rick-owens-ramones-high"
   },
   {
@@ -421,7 +421,7 @@ export const products = [
     brand: "Rick Owens",
     price: 220000,
     category: "Sneakers",
-    images: ["/products/rick-owens-turbodark-1.jpg", "/products/rick-owens-turbodark-2.jpg"],
+    images: ["/products/rick-owens-turbodark-1.JPG", "/products/rick-owens-turbodark-2.JPG"],
     slug: "rick-owens-turbodark"
   },
   {
@@ -430,7 +430,7 @@ export const products = [
     brand: "Rick Owens",
     price: 240000,
     category: "Sneakers",
-    images: ["/products/rick-owens-bozo-tractor-1.jpg", "/products/rick-owens-bozo-tractor-2.jpg"],
+    images: ["/products/rick-owens-bozo-tractor-1.JPG", "/products/rick-owens-bozo-tractor-2.JPG"],
     slug: "rick-owens-bozo-tractor"
   },
   {
@@ -439,7 +439,7 @@ export const products = [
     brand: "Rick Owens",
     price: 230000,
     category: "Sneakers",
-    images: ["/products/rick-owens-abstract-runner-1.jpg", "/products/rick-owens-abstract-runner-2.jpg"],
+    images: ["/products/rick-owens-abstract-runner-1.JPG", "/products/rick-owens-abstract-runner-2.JPG"],
     slug: "rick-owens-abstract-runner"
   },
   {
@@ -448,7 +448,7 @@ export const products = [
     brand: "Rick Owens",
     price: 205000,
     category: "Sneakers",
-    images: ["/products/rick-owens-vintage-sneaks-1.jpg", "/products/rick-owens-vintage-sneaks-2.jpg"],
+    images: ["/products/rick-owens-vintage-sneaks-1.JPG", "/products/rick-owens-vintage-sneaks-2.JPG"],
     slug: "rick-owens-vintage-sneaks"
   },
   {
@@ -457,7 +457,7 @@ export const products = [
     brand: "Rick Owens",
     price: 225000,
     category: "Sneakers",
-    images: ["/products/rick-owens-geth-runner-1.jpg", "/products/rick-owens-geth-runner-2.jpg"],
+    images: ["/products/rick-owens-geth-runner-1.JPG", "/products/rick-owens-geth-runner-2.JPG"],
     slug: "rick-owens-geth-runner"
   },
   {
@@ -466,7 +466,7 @@ export const products = [
     brand: "Rick Owens",
     price: 215000,
     category: "Sneakers",
-    images: ["/products/rick-owens-bumper-sneaker-1.jpg", "/products/rick-owens-bumper-sneaker-2.jpg"],
+    images: ["/products/rick-owens-bumper-sneaker-1.JPG", "/products/rick-owens-bumper-sneaker-2.JPG"],
     slug: "rick-owens-bumper-sneaker"
   },
   {
@@ -475,7 +475,7 @@ export const products = [
     brand: "Rick Owens",
     price: 195000,
     category: "Sneakers",
-    images: ["/products/rick-owens-low-sneaks-1.jpg", "/products/rick-owens-low-sneaks-2.jpg"],
+    images: ["/products/rick-owens-low-sneaks-1.JPG", "/products/rick-owens-low-sneaks-2.JPG"],
     slug: "rick-owens-low-sneaks"
   },
 
@@ -486,7 +486,7 @@ export const products = [
     brand: "ASICS",
     price: 98000,
     category: "Sneakers",
-    images: ["/products/asics-gel-kayano-14-1.jpg", "/products/asics-gel-kayano-14-2.jpg"],
+    images: ["/products/asics-gel-kayano-14-1.JPG", "/products/asics-gel-kayano-14-2.JPG"],
     slug: "asics-gel-kayano-14"
   },
   {
@@ -495,7 +495,7 @@ export const products = [
     brand: "ASICS",
     price: 95000,
     category: "Sneakers",
-    images: ["/products/asics-gel-nimbus-9-1.jpg", "/products/asics-gel-nimbus-9-2.jpg"],
+    images: ["/products/asics-gel-nimbus-9-1.JPG", "/products/asics-gel-nimbus-9-2.JPG"],
     slug: "asics-gel-nimbus-9"
   },
   {
@@ -504,7 +504,7 @@ export const products = [
     brand: "ASICS",
     price: 92000,
     category: "Sneakers",
-    images: ["/products/asics-gt-2160-1.jpg", "/products/asics-gt-2160-2.jpg"],
+    images: ["/products/asics-gt-2160-1.JPG", "/products/asics-gt-2160-2.JPG"],
     slug: "asics-gt-2160"
   },
   {
@@ -513,7 +513,7 @@ export const products = [
     brand: "ASICS",
     price: 102000,
     category: "Sneakers",
-    images: ["/products/asics-gel-nyc-1.jpg", "/products/asics-gel-nyc-2.jpg"],
+    images: ["/products/asics-gel-nyc-1.JPG", "/products/asics-gel-nyc-2.JPG"],
     slug: "asics-gel-nyc"
   },
   {
@@ -522,7 +522,7 @@ export const products = [
     brand: "ASICS",
     price: 85000,
     category: "Sneakers",
-    images: ["/products/asics-gel-sonoma-1.jpg", "/products/asics-gel-sonoma-2.jpg"],
+    images: ["/products/asics-gel-sonoma-1.JPG", "/products/asics-gel-sonoma-2.JPG"],
     slug: "asics-gel-sonoma"
   },
   {
@@ -531,7 +531,7 @@ export const products = [
     brand: "ASICS",
     price: 105000,
     category: "Sneakers",
-    images: ["/products/asics-gel-quantum-1.jpg", "/products/asics-gel-quantum-2.jpg"],
+    images: ["/products/asics-gel-quantum-1.JPG", "/products/asics-gel-quantum-2.JPG"],
     slug: "asics-gel-quantum"
   },
   {
@@ -540,7 +540,7 @@ export const products = [
     brand: "ASICS",
     price: 88000,
     category: "Sneakers",
-    images: ["/products/asics-gel-lyte-iii-1.jpg", "/products/asics-gel-lyte-iii-2.jpg"],
+    images: ["/products/asics-gel-lyte-iii-1.JPG", "/products/asics-gel-lyte-iii-2.JPG"],
     slug: "asics-gel-lyte-iii"
   },
   {
@@ -549,7 +549,7 @@ export const products = [
     brand: "ASICS",
     price: 72000,
     category: "Sneakers",
-    images: ["/products/asics-japan-s-1.jpg", "/products/asics-japan-s-2.jpg"],
+    images: ["/products/asics-japan-s-1.JPG", "/products/asics-japan-s-2.JPG"],
     slug: "asics-japan-s"
   },
   {
@@ -558,8 +558,8 @@ export const products = [
     brand: "ASICS",
     price: 86000,
     category: "Sneakers",
-    images: ["/products/asics-ex89-1.jpg", "/products/asics-ex89-2.jpg"],
-    slug: "asics-ex89-1.jpg"
+    images: ["/products/asics-ex89-1.JPG", "/products/asics-ex89-2.JPG"],
+    slug: "asics-ex89"
   },
   {
     id: "asics-10",
@@ -567,7 +567,7 @@ export const products = [
     brand: "ASICS",
     price: 110000,
     category: "Sneakers",
-    images: ["/products/asics-trabuco-max-1.jpg", "/products/asics-trabuco-max-2.jpg"],
+    images: ["/products/asics-trabuco-max-1.JPG", "/products/asics-trabuco-max-2.JPG"],
     slug: "asics-trabuco-max"
   }
 ];
