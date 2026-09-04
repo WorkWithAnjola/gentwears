@@ -9,8 +9,8 @@ import Reviews from "@/components/home/Reviews";
 import Newsletter from "@/components/home/Newsletter";
 
 export default function HomePage() {
-  const signature = PRODUCTS.filter((p) => p.collection === "Signature");
   const signature = PRODUCTS.filter((p) => p.tag === "House Brand");
+const newArrivals = PRODUCTS.filter((p) => p.category === "Sneakers");
 const newArrivals = PRODUCTS.filter((p) => p.category === "Sneakers");
 
   return (
