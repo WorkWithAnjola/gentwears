@@ -6,7 +6,7 @@ import Button from "@/components/ui/Button";
 
 export default function Hero() {
   return (
-    <<Image
+    <Image
         src="/images/homepage-hero.webp"
         alt="Excited man holding colorful shopping bags"
         fill
