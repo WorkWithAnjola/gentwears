@@ -579,4 +579,3 @@ export const REVIEWS = [
   { id: 1, name: "Tunde O.", comment: "Top-tier quality. Shipping was fast.", rating: 5 },
   { id: "2", name: "Chidi K.", comment: "The packaging and presentation feel very luxurious.", rating: 5 }
 ];
-
