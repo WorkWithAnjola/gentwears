@@ -6,7 +6,7 @@ export const products = [
     brand: "Gentwears",
     price: 45000,
     category: "Clothing",
-    images: ["/products/gentwears-signature-silk-shirt-1.jpg", "/products/gentwears-signature-silk-shirt-2.jpg"],
+    images: ["/products/gentwears-signature-silk-shirt-1.JPG", "/products/gentwears-signature-silk-shirt-2.JPG"],
     slug: "gentwears-signature-silk-shirt",
     tag: "House Brand"
   },
@@ -16,7 +16,7 @@ export const products = [
     brand: "Gentwears",
     price: 55000,
     category: "Clothing",
-    images: ["/products/gentwears-classic-linen-trousers-1.jpg", "/products/gentwears-classic-linen-trousers-2.jpg"],
+    images: ["/products/gentwears-classic-linen-trousers-1.JPG", "/products/gentwears-classic-linen-trousers-2.JPG"],
     slug: "gentwears-classic-linen-trousers",
     tag: "House Brand"
   },
@@ -26,7 +26,7 @@ export const products = [
     brand: "Gentwears",
     price: 25000,
     category: "Clothing",
-    images: ["/products/gentwears-oversized-heavyweight-tee-1.jpg", "/products/gentwears-oversized-heavyweight-tee-2.jpg"],
+    images: ["/products/gentwears-oversized-heavyweight-tee-1.JPG", "/products/gentwears-oversized-heavyweight-tee-2.JPG"],
     slug: "gentwears-oversized-heavyweight-tee",
     tag: "House Brand"
   },
@@ -36,7 +36,7 @@ export const products = [
     brand: "Gentwears",
     price: 120000,
     category: "Clothing",
-    images: ["/products/gentwears-tailored-wool-overcoat-1.jpg", "/products/gentwears-tailored-wool-overcoat-2.jpg"],
+    images: ["/products/gentwears-tailored-wool-overcoat-1.JPG", "/products/gentwears-tailored-wool-overcoat-2.JPG"],
     slug: "gentwears-tailored-wool-overcoat",
     tag: "House Brand"
   },
@@ -46,7 +46,7 @@ export const products = [
     brand: "Gentwears",
     price: 75000,
     category: "Clothing",
-    images: ["/products/gentwears-luxury-cashmere-hoodie-1.jpg", "/products/gentwears-luxury-cashmere-hoodie-2.jpg"],
+    images: ["/products/gentwears-luxury-cashmere-hoodie-1.JPG", "/products/gentwears-luxury-cashmere-hoodie-2.JPG"],
     slug: "gentwears-luxury-cashmere-hoodie",
     tag: "House Brand"
   },
@@ -56,7 +56,7 @@ export const products = [
     brand: "Gentwears",
     price: 35000,
     category: "House Shoes",
-    images: ["/products/gentwears-velvet-lounge-slipper-1.jpg", "/products/gentwears-velvet-lounge-slipper-2.jpg"],
+    images: ["/products/gentwears-velvet-lounge-slipper-1.JPG", "/products/gentwears-velvet-lounge-slipper-2.JPG"],
     slug: "gentwears-velvet-lounge-slipper",
     tag: "House Brand"
   },
@@ -66,7 +66,7 @@ export const products = [
     brand: "Gentwears",
     price: 40000,
     category: "House Shoes",
-    images: ["/products/gentwears-shearling-house-mule-1.jpg", "/products/gentwears-shearling-house-mule-2.jpg"],
+    images: ["/products/gentwears-shearling-house-mule-1.JPG", "/products/gentwears-shearling-house-mule-2.JPG"],
     slug: "gentwears-shearling-house-mule",
     tag: "House Brand"
   },
@@ -76,7 +76,7 @@ export const products = [
     brand: "Gentwears",
     price: 30000,
     category: "House Shoes",
-    images: ["/products/gentwears-quilted-indoor-slip-on-1.jpg", "/products/gentwears-quilted-indoor-slip-on-2.jpg"],
+    images: ["/products/gentwears-quilted-indoor-slip-on-1.JPG", "/products/gentwears-quilted-indoor-slip-on-2.JPG"],
     slug: "gentwears-quilted-indoor-slip-on",
     tag: "House Brand"
   },
@@ -86,7 +86,7 @@ export const products = [
     brand: "Gentwears",
     price: 38000,
     category: "House Shoes",
-    images: ["/products/gentwears-leather-comfort-slide-1.jpg", "/products/gentwears-leather-comfort-slide-2.jpg"],
+    images: ["/products/gentwears-leather-comfort-slide-1.JPG", "/products/gentwears-leather-comfort-slide-2.JPG"],
     slug: "gentwears-leather-comfort-slide",
     tag: "House Brand"
   },
@@ -96,7 +96,7 @@ export const products = [
     brand: "Gentwears",
     price: 32000,
     category: "House Shoes",
-    images: ["/products/gentwears-knitted-home-bootie-1.jpg", "/products/gentwears-knitted-home-bootie-2.jpg"],
+    images: ["/products/gentwears-knitted-home-bootie-1.JPG", "/products/gentwears-knitted-home-bootie-2.JPG"],
     slug: "gentwears-knitted-home-bootie",
     tag: "House Brand"
   },
@@ -106,7 +106,7 @@ export const products = [
     brand: "Gentwears",
     price: 42000,
     category: "House Shoes",
-    images: ["/products/gentwears-suede-indoor-clog-1.jpg", "/products/gentwears-suede-indoor-clog-2.jpg"],
+    images: ["/products/gentwears-suede-indoor-clog-1.JPG", "/products/gentwears-suede-indoor-clog-2.JPG"],
     slug: "gentwears-suede-indoor-clog",
     tag: "House Brand"
   },
@@ -118,7 +118,7 @@ export const products = [
     brand: "Nike",
     price: 85000,
     category: "Sneakers",
-    images: ["/products/nike-air-force-1-low-1.jpg", "/products/nike-air-force-1-low-2.jpg"],
+    images: ["/products/nike-air-force-1-low-1.JPG", "/products/nike-air-force-1-low-2.JPG"],
     slug: "nike-air-force-1-low"
   },
   {
@@ -127,7 +127,7 @@ export const products = [
     brand: "Nike",
     price: 90000,
     category: "Sneakers",
-    images: ["/products/nike-dunk-low-panda-1.jpg", "/products/nike-dunk-low-panda-2.jpg"],
+    images: ["/products/nike-dunk-low-panda-1.JPG", "/products/nike-dunk-low-panda-2.JPG"],
     slug: "nike-dunk-low-panda"
   },
   {
@@ -136,7 +136,7 @@ export const products = [
     brand: "Nike",
     price: 95000,
     category: "Sneakers",
-    images: ["/products/nike-air-jordan-1-low-1.jpg", "/products/nike-air-jordan-1-low-2.jpg"],
+    images: ["/products/nike-air-jordan-1-low-1.JPG", "/products/nike-air-jordan-1-low-2.JPG"],
     slug: "nike-air-jordan-1-low"
   },
   {
@@ -145,7 +145,7 @@ export const products = [
     brand: "Nike",
     price: 92000,
     category: "Sneakers",
-    images: ["/products/nike-air-max-90-1.jpg", "/products/nike-air-max-90-2.jpg"],
+    images: ["/products/nike-air-max-90-1.JPG", "/products/nike-air-max-90-2.JPG"],
     slug: "nike-air-max-90"
   },
   {
@@ -154,7 +154,7 @@ export const products = [
     brand: "Nike",
     price: 110000,
     category: "Sneakers",
-    images: ["/products/nike-shox-tl-1.jpg", "/products/nike-shox-tl-2.jpg"],
+    images: ["/products/nike-shox-tl-1.JPG", "/products/nike-shox-tl-2.JPG"],
     slug: "nike-shox-tl"
   },
   {
@@ -163,7 +163,7 @@ export const products = [
     brand: "Nike",
     price: 98000,
     category: "Sneakers",
-    images: ["/products/nike-vomero-5-1.jpg", "/products/nike-vomero-5-2.jpg"],
+    images: ["/products/nike-vomero-5-1.JPG", "/products/nike-vomero-5-2.JPG"],
     slug: "nike-vomero-5"
   },
   {
@@ -172,7 +172,7 @@ export const products = [
     brand: "Nike",
     price: 105000,
     category: "Sneakers",
-    images: ["/products/nike-air-max-plus-1.jpg", "/products/nike-air-max-plus-2.jpg"],
+    images: ["/products/nike-air-max-plus-1.JPG", "/products/nike-air-max-plus-2.JPG"],
     slug: "nike-air-max-plus"
   },
   {
@@ -181,7 +181,7 @@ export const products = [
     brand: "Nike",
     price: 145000,
     category: "Sneakers",
-    images: ["/products/nike-air-jordan-4-retro-1.jpg", "/products/nike-air-jordan-4-retro-2.jpg"],
+    images: ["/products/nike-air-jordan-4-retro-1.JPG", "/products/nike-air-jordan-4-retro-2.JPG"],
     slug: "nike-air-jordan-4-retro"
   },
   {
@@ -190,7 +190,7 @@ export const products = [
     brand: "Nike",
     price: 115000,
     category: "Sneakers",
-    images: ["/products/nike-sb-dunk-low-1.jpg", "/products/nike-sb-dunk-low-2.jpg"],
+    images: ["/products/nike-sb-dunk-low-1.JPG", "/products/nike-sb-dunk-low-2.JPG"],
     slug: "nike-sb-dunk-low"
   },
   {
@@ -199,7 +199,7 @@ export const products = [
     brand: "Nike",
     price: 95000,
     category: "Sneakers",
-    images: ["/products/nike-air-max-97-1.jpg", "/products/nike-air-max-97-2.jpg"],
+    images: ["/products/nike-air-max-97-1.JPG", "/products/nike-air-max-97-2.JPG"],
     slug: "nike-air-max-97"
   },
 
