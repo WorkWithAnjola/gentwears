@@ -6,7 +6,8 @@ import Button from "@/components/ui/Button";
 
 export default function Hero() {
   return (
-    <Image
+    <section className="relative h-[92vh] min-h-[560px] overflow-hidden">
+      <Image
         src="/images/homepage-hero.webp"
         alt="Excited man holding colorful shopping bags"
         fill
