@@ -547,7 +547,7 @@ export const products = [
     id: "asics-8",
     name: "Asics Japan S",
     brand: "ASICS",
-    price:er72000,
+    price: 72000,
     category: "Sneakers",
     images: ["/products/asics-japan-s-1.JPG", "/products/asics-japan-s-2.JPG"],
     slug: "asics-japan-s"
