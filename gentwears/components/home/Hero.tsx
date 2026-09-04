@@ -6,10 +6,9 @@ import Button from "@/components/ui/Button";
 
 export default function Hero() {
   return (
-    <section className="relative h-[92vh] min-h-[560px] overflow-hidden">
-      <Image
-        src={img("photo-1507003211169-0a1dd7228f2d")}
-        alt="Gentwears hero"
+    <<Image
+        src="/images/homepage-hero.webp"
+        alt="Excited man holding colorful shopping bags"
         fill
         priority
         className="object-cover"
