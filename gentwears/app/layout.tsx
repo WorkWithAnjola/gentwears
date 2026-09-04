@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Fraunces, Inter } from "next/font/google";
 import "./globals.css";
 import Providers from "./providers";
@@ -15,6 +15,12 @@ const inter = Inter({
   weight: ["300", "400", "500", "600", "700"],
 });
 
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+};
+
 export const metadata: Metadata = {
   title: "Gentwears — Premium Menswear & Unisex Footwear",
   description:
@@ -30,7 +36,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${fraunces.variable} ${inter.variable}`}>
-      <body className="font-body">
+      <body className="font-body min-h-screen flex flex-col bg-white text-neutral-900 antialiased overflow-x-hidden">
         <Providers>{children}</Providers>
       </body>
     </html>
