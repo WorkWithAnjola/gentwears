@@ -10,8 +10,8 @@ import Newsletter from "@/components/home/Newsletter";
 
 export default function HomePage() {
   const signature = PRODUCTS.filter((p) => p.collection === "Signature");
-  const newArrivals = PRODUCTS.filter((p) => p.collection === "New Arrivals");
-  const bestSellers = PRODUCTS.filter((p) => p.tag === "Best Seller");
+  const signature = PRODUCTS.filter((p) => p.tag === "House Brand");
+const newArrivals = PRODUCTS.filter((p) => p.category === "Sneakers");
 
   return (
     <>
