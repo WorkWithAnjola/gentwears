@@ -1,11 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
 import { ChevronRight } from "lucide-react";
-import { img } from "@/lib/utils";
 
 const CATEGORIES = [
-  { label: "Men's Clothing", href: "/shop?category=Clothing", image: img("photo-1594938298603-c8148c4dae35") },
-  { label: "Unisex Shoes", href: "/shop?category=Shoes", image: img("photo-1595950653106-6c9ebd614d3a") },
+  { label: "Men's Clothing", href: "/shop?category=Clothing", image: "/images/mens-clothing.webp" },
+  { label: "Unisex Shoes", href: "/shop?category=Shoes", image: "/images/unisex-shoes.webp" },
 ];
 
 export default function CategoryGrid() {
