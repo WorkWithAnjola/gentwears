@@ -577,4 +577,3 @@ export const RETAIL_BRANDS = ["Gentwears", "Nike", "Adidas", "New Balance", "Ric
 export const REVIEWS = [
   { id: 1, name: "Tunde O.", comment: "Top-tier quality.", rating: 5 }
 ];
-
