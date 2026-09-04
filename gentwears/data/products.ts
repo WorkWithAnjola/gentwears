@@ -571,5 +571,11 @@ export const products = [
     slug: "asics-trabuco-max"
   }
 ];
+
+// Required aliases and extra exports for components
 export const PRODUCTS = products;
 export const RETAIL_BRANDS = ["Gentwears", "Nike", "Adidas", "New Balance", "Rick Owens", "ASICS"];
+export const REVIEWS = [
+  { id: 1, name: "Tunde O.", comment: "Top-tier quality. Shipping was fast.", rating: 5 },
+  { id: "2", name: "Chidi K.", comment: "The packaging and presentation feel very luxurious.", rating: 5 }
+];
