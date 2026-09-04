@@ -571,3 +571,5 @@ export const products = [
     slug: "asics-trabuco-max"
   }
 ];
+export const PRODUCTS = products;
+export const RETAIL_BRANDS = ["Gentwears", "Nike", "Adidas", "New Balance", "Rick Owens", "ASICS"];
