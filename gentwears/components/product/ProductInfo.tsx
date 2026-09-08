@@ -15,7 +15,7 @@ export default function ProductInfo({ product }: { product: Product }) {
   const [size, setSize] = useState(product.sizes?.[0] ?? "");
   const { addToCart } = useCart();
   const { toggleWish, isWished } = useWishlist();
-  const wished = isWished(product.id);
+  const wished = isWished(Number(product.id));
 
   return (
     <div className="pt-2">
