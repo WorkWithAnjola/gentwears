@@ -49,7 +49,7 @@ export const PRODUCTS: Product[] = [
     brand: "Nike",
     price: 130,
     category: "Footwear",
-    images: ["/images/nike-air-force-1-low-1.webp", "/images/nike-air-force-1-low-2.webp"],
+    images: ["/products/nike-air-force-1-low-1.webp", "/products/nike-air-force-1-low-2.webp"],
     slug: "nike-air-force-1-low",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "The legendary classic featuring crisp leather, bold details, and the perfect everyday silhouette."
@@ -60,7 +60,7 @@ export const PRODUCTS: Product[] = [
     brand: "Nike",
     price: 150,
     category: "Footwear",
-    images: ["/images/nike-dunk-low-panda-1.webp", "/images/nike-dunk-low-panda-2.webp"],
+    images: ["/products/nike-dunk-low-panda-1.webp", "/products/nike-dunk-low-panda-2.webp"],
     slug: "nike-dunk-low-panda",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "The iconic black-and-white colorway that defined modern streetwear culture."
@@ -71,7 +71,7 @@ export const PRODUCTS: Product[] = [
     brand: "Nike",
     price: 140,
     category: "Footwear",
-    images: ["/images/nike-air-jordan-1-low-1.webp", "/images/nike-air-jordan-1-low-2.webp"],
+    images: ["/products/nike-air-jordan-1-low-1.webp", "/products/nike-air-jordan-1-low-2.webp"],
     slug: "nike-air-jordan-1-low",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Timeless court heritage paired with low-top versatility and premium comfort."
@@ -82,7 +82,7 @@ export const PRODUCTS: Product[] = [
     brand: "Nike",
     price: 145,
     category: "Footwear",
-    images: ["/images/nike-air-max-90-1.webp", "/images/nike-air-max-90-2.webp"],
+    images: ["/products/nike-air-max-90-1.webp", "/products/nike-air-max-90-2.webp"],
     slug: "nike-air-max-90",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Waffle outsole, stitched overlays, and classic Air cushioning for undeniable comfort."
@@ -93,7 +93,7 @@ export const PRODUCTS: Product[] = [
     brand: "Nike",
     price: 170,
     category: "Footwear",
-    images: ["/images/nike-shox-tl-1.webp", "/images/nike-shox-tl-2.webp"],
+    images: ["/products/nike-shox-tl-1.webp", "/products/nike-shox-tl-2.webp"],
     slug: "nike-shox-tl",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Mechanical cushioning takes center stage with full-length Shox technology and bold styling."
@@ -104,7 +104,7 @@ export const PRODUCTS: Product[] = [
     brand: "Nike",
     price: 160,
     category: "Footwear",
-    images: ["/images/nike-vomero-5-1.webp", "/images/nike-vomero-5-2.webp"],
+    images: ["/products/nike-vomero-5-1.webp", "/products/nike-vomero-5-2.webp"],
     slug: "nike-vomero-5",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Complexity and depth combine with breathable textiles and plastic plating for ultimate running tech."
@@ -115,7 +115,7 @@ export const PRODUCTS: Product[] = [
     brand: "Nike",
     price: 175,
     category: "Footwear",
-    images: ["/images/nike-air-max-plus-1.webp", "/images/nike-air-max-plus-2.webp"],
+    images: ["/products/nike-air-max-plus-1.webp", "/products/nike-air-max-plus-2.webp"],
     slug: "nike-air-max-plus",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Tuned Air experience offering premium stability and striking beach-sunset inspired lines."
@@ -126,7 +126,7 @@ export const PRODUCTS: Product[] = [
     brand: "Nike",
     price: 210,
     category: "Footwear",
-    images: ["/images/nike-air-jordan-4-retro-1.webp", "/images/nike-air-jordan-4-retro-2.webp"],
+    images: ["/products/nike-air-jordan-4-retro-1.webp", "/products/nike-air-jordan-4-retro-2.webp"],
     slug: "nike-air-jordan-4-retro",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Legendary heritage style featuring iconic support wings, mesh netting, and visible Air."
@@ -137,7 +137,7 @@ export const PRODUCTS: Product[] = [
     brand: "Nike",
     price: 155,
     category: "Footwear",
-    images: ["/images/nike-sb-dunk-low-1.webp", "/images/nike-sb-dunk-low-2.webp"],
+    images: ["/products/nike-sb-dunk-low-1.webp", "/products/nike-sb-dunk-low-2.webp"],
     slug: "nike-sb-dunk-low",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Skateboarding staple engineered for boardfeel, impact absorption, and iconic colorblocking."
@@ -148,7 +148,7 @@ export const PRODUCTS: Product[] = [
     brand: "Nike",
     price: 180,
     category: "Footwear",
-    images: ["/images/nike-air-max-97-1.webp", "/images/nike-air-max-97-2.webp"],
+    images: ["/products/nike-air-max-97-1.webp", "/products/nike-air-max-97-2.webp"],
     slug: "nike-air-max-97",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Inspired by Japanese bullet trains with full-length Max Air cushioning and sleek reflective piping."
@@ -161,7 +161,7 @@ export const PRODUCTS: Product[] = [
     brand: "Adidas",
     price: 120,
     category: "Footwear",
-    images: ["/images/adidas-samba-og-1.JPG", "/images/adidas-samba-og-2.JPG"],
+    images: ["/products/adidas-samba-og-1.JPG", "/products/adidas-samba-og-2.JPG"],
     slug: "adidas-samba-og",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "The timeless indoor football shoe turned global streetwear icon."
@@ -172,7 +172,7 @@ export const PRODUCTS: Product[] = [
     brand: "Adidas",
     price: 125,
     category: "Footwear",
-    images: ["/images/adidas-gazelle-indoor-1.JPG", "/images/adidas-gazelle-indoor-2.JPG"],
+    images: ["/products/adidas-gazelle-indoor-1.JPG", "/products/adidas-gazelle-indoor-2.JPG"],
     slug: "adidas-gazelle-indoor",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Rich suede upper sitting atop a translucent gum rubber outsole."
@@ -183,7 +183,7 @@ export const PRODUCTS: Product[] = [
     brand: "Adidas",
     price: 130,
     category: "Footwear",
-    images: ["/images/adidas-campus-00s-1.webp", "/images/adidas-campus-00s-2.webp"],
+    images: ["/products/adidas-campus-00s-1.webp", "/products/adidas-campus-00s-2.webp"],
     slug: "adidas-campus-00s",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Chunky skate aesthetic inspired by the early 2000s heritage."
@@ -194,7 +194,7 @@ export const PRODUCTS: Product[] = [
     brand: "Adidas",
     price: 230,
     category: "Footwear",
-    images: ["/images/adidas-yeezy-boost-350-v2-1.JPG", "/images/adidas-yeezy-boost-350-v2-2.JPG"],
+    images: ["/products/adidas-yeezy-boost-350-v2-1.JPG", "/products/adidas-yeezy-boost-350-v2-2.JPG"],
     slug: "adidas-yeezy-boost-350-v2",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Primeknit upper combined with responsive Boost cushioning for peerless comfort."
@@ -205,7 +205,7 @@ export const PRODUCTS: Product[] = [
     brand: "Adidas",
     price: 110,
     category: "Footwear",
-    images: ["/images/adidas-stan-smith-1.JPG", "/images/adidas-stan-smith-2.JPG"],
+    images: ["/products/adidas-stan-smith-1.JPG", "/products/adidas-stan-smith-2.JPG"],
     slug: "adidas-stan-smith",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "The quintessential clean tennis shoe with minimalist perforated 3-Stripes."
@@ -216,7 +216,7 @@ export const PRODUCTS: Product[] = [
     brand: "Adidas",
     price: 115,
     category: "Footwear",
-    images: ["/images/adidas-superstar-1.JPG", "/images/adidas-superstar-2.JPG"],
+    images: ["/products/adidas-superstar-1.JPG", "/products/adidas-superstar-2.JPG"],
     slug: "adidas-superstar",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Recognizable worldwide by its iconic rubber shell toe design."
@@ -227,7 +227,7 @@ export const PRODUCTS: Product[] = [
     brand: "Adidas",
     price: 135,
     category: "Footwear",
-    images: ["/images/adidas-forum-low-1.JPG", "/images/adidas-forum-low-2.JPG"],
+    images: ["/products/adidas-forum-low-1.JPG", "/products/adidas-forum-low-2.JPG"],
     slug: "adidas-forum-low",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "B-ball legacy with an adjustable ankle strap and premium leather build."
@@ -238,7 +238,7 @@ export const PRODUCTS: Product[] = [
     brand: "Adidas",
     price: 120,
     category: "Footwear",
-    images: ["/images/adidas-spezial-1.JPG", "/images/adidas-spezial-2.JPG"],
+    images: ["/products/adidas-spezial-1.JPG", "/products/adidas-spezial-2.JPG"],
     slug: "adidas-spezial",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Classic terrace footwear built with soft suede and vintage T-toe overlays."
@@ -249,7 +249,7 @@ export const PRODUCTS: Product[] = [
     brand: "Adidas",
     price: 140,
     category: "Footwear",
-    images: ["/images/adidas-nmd-r1-1.JPG", "/images/adidas-nmd-r1-2.JPG"],
+    images: ["/products/adidas-nmd-r1-1.JPG", "/products/adidas-nmd-r1-2.JPG"],
     slug: "adidas-nmd-r1",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Urban runner equipped with signature midsole plugs and energy-returning Boost."
@@ -260,7 +260,7 @@ export const PRODUCTS: Product[] = [
     brand: "Adidas",
     price: 190,
     category: "Footwear",
-    images: ["/images/adidas-ultraboost-light-1.JPG", "/images/adidas-ultraboost-light-2.JPG"],
+    images: ["/products/adidas-ultraboost-light-1.JPG", "/products/adidas-ultraboost-light-2.JPG"],
     slug: "adidas-ultraboost-light",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Our lightest Ultraboost ever featuring maximum cushioning and responsiveness."
@@ -273,7 +273,7 @@ export const PRODUCTS: Product[] = [
     brand: "New Balance",
     price: 130,
     category: "Footwear",
-    images: ["/images/new-balance-550-1.webp", "/images/new-balance-550-2.webp"],
+    images: ["/products/new-balance-550-1.webp", "/products/new-balance-550-2.webp"],
     slug: "new-balance-550",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Retro basketball silhouette revived from the late 80s archives."
@@ -284,7 +284,7 @@ export const PRODUCTS: Product[] = [
     brand: "New Balance",
     price: 160,
     category: "Footwear",
-    images: ["/images/new-balance-9060-1.webp", "/images/new-balance-9060-2.webp"],
+    images: ["/products/new-balance-9060-1.webp", "/products/new-balance-9060-2.webp"],
     slug: "new-balance-9060",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Futuristic chunky runner drawing inspiration from classic 99x models."
@@ -295,7 +295,7 @@ export const PRODUCTS: Product[] = [
     brand: "New Balance",
     price: 150,
     category: "Footwear",
-    images: ["/images/new-balance-2002r-1.webp", "/images/new-balance-2002r-2.webp"],
+    images: ["/products/new-balance-2002r-1.webp", "/products/new-balance-2002r-2.webp"],
     slug: "new-balance-2002r",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "2010s running favorite re-engineered with premium suede and ABZORB cushioning."
@@ -306,7 +306,7 @@ export const PRODUCTS: Product[] = [
     brand: "New Balance",
     price: 110,
     category: "Footwear",
-    images: ["/images/new-balance-327-1.webp", "/images/new-balance-327-2.webp"],
+    images: ["/products/new-balance-327-1.webp", "/products/new-balance-327-2.webp"],
     slug: "new-balance-327",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Bold wedge silhouette with an oversized 'N' logo and studded trail outsole."
@@ -317,7 +317,7 @@ export const PRODUCTS: Product[] = [
     brand: "New Balance",
     price: 220,
     category: "Footwear",
-    images: ["/images/new-balance-990v6-1.webp", "/images/new-balance-990v6-2.webp"],
+    images: ["/products/new-balance-990v6-1.webp", "/products/new-balance-990v6-2.webp"],
     slug: "new-balance-990v6",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "The pinnacle of craftsmanship and cushioning in the legendary 990 line."
@@ -328,7 +328,7 @@ export const PRODUCTS: Product[] = [
     brand: "New Balance",
     price: 100,
     category: "Footwear",
-    images: ["/images/new-balance-574-1.webp", "/images/new-balance-574-2.webp"],
+    images: ["/products/new-balance-574-1.webp", "/products/new-balance-574-2.webp"],
     slug: "new-balance-574",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "The quintessential go-anywhere shoe combining comfort and simplicity."
@@ -339,7 +339,7 @@ export const PRODUCTS: Product[] = [
     brand: "New Balance",
     price: 155,
     category: "Footwear",
-    images: ["/images/new-balance-1906r-1.webp", "/images/new-balance-1906r-2.webp"],
+    images: ["/products/new-balance-1906r-1.webp", "/products/new-balance-1906r-2.webp"],
     slug: "new-balance-1906r",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Technical runner featuring an open mesh upper and stability web technology."
@@ -350,7 +350,7 @@ export const PRODUCTS: Product[] = [
     brand: "New Balance",
     price: 210,
     category: "Footwear",
-    images: ["/images/new-balance-993-1.webp", "/images/new-balance-993-2.webp"],
+    images: ["/products/new-balance-993-1.webp", "/products/new-balance-993-2.webp"],
     slug: "new-balance-993",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Made in USA classic offering unmatched comfort and timeless grey styling."
@@ -361,7 +361,7 @@ export const PRODUCTS: Product[] = [
     brand: "New Balance",
     price: 140,
     category: "Footwear",
-    images: ["/images/new-balance-650-1.webp", "/images/new-balance-650-2.webp"],
+    images: ["/products/new-balance-650-1.webp", "/products/new-balance-650-2.webp"],
     slug: "new-balance-650",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "High-top counterpart to the 550, offering vintage padded collar detailing."
@@ -372,7 +372,7 @@ export const PRODUCTS: Product[] = [
     brand: "New Balance",
     price: 175,
     category: "Footwear",
-    images: ["/images/new-balance-fresh-foam-x-more-trail-1.webp", "/images/new-balance-fresh-foam-x-more-trail-2.webp"],
+    images: ["/products/new-balance-fresh-foam-x-more-trail-1.webp", "/products/new-balance-fresh-foam-x-more-trail-2.webp"],
     slug: "new-balance-fresh-foam-x-more-trail",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Maximum cushioning built for rugged trails and outdoor adventures."
@@ -385,7 +385,7 @@ export const PRODUCTS: Product[] = [
     brand: "Rick Owens",
     price: 850,
     category: "Footwear",
-    images: ["/images/rick-owens-geobasket-high-top-1.webp", "/images/rick-owens-geobasket-high-top-2.webp"],
+    images: ["/products/rick-owens-geobasket-high-top-1.webp", "/products/rick-owens-geobasket-high-top-2.webp"],
     slug: "rick-owens-geobasket-high-top",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Avant-garde calfskin high-tops with an exaggerated padded tongue and shark-tooth sole."
@@ -396,7 +396,7 @@ export const PRODUCTS: Product[] = [
     brand: "Rick Owens",
     price: 540,
     category: "Footwear",
-    images: ["/images/rick-owens-drkshdw-ramones-canvas-low-1.webp", "/images/rick-owens-drkshdw-ramones-canvas-low-2.webp"],
+    images: ["/products/rick-owens-drkshdw-ramones-canvas-low-1.webp", "/products/rick-owens-drkshdw-ramones-canvas-low-2.webp"],
     slug: "rick-owens-drkshdw-ramones-canvas-low",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Heavyweight organic cotton canvas low-tops with structured toe caps."
@@ -407,7 +407,7 @@ export const PRODUCTS: Product[] = [
     brand: "Rick Owens",
     price: 590,
     category: "Footwear",
-    images: ["/images/rick-owens-drkshdw-ramones-high-top-1.webp", "/images/rick-owens-drkshdw-ramones-high-top-2.webp"],
+    images: ["/products/rick-owens-drkshdw-ramones-high-top-1.webp", "/products/rick-owens-drkshdw-ramones-high-top-2.webp"],
     slug: "rick-owens-drkshdw-ramones-high-top",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "The iconic rebellious high-top staple featuring side zip closures and heavy canvas."
@@ -418,7 +418,7 @@ export const PRODUCTS: Product[] = [
     brand: "Rick Owens",
     price: 220,
     category: "Footwear",
-    images: ["/images/rick-owens-turbodark-chuck-70-1.webp", "/images/rick-owens-turbodark-chuck-70-2.webp"],
+    images: ["/products/rick-owens-turbodark-chuck-70-1.webp", "/products/rick-owens-turbodark-chuck-70-2.webp"],
     slug: "rick-owens-turbodark-chuck-70",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Subversive Converse collaboration featuring an elongated square toe and custom branding."
@@ -429,7 +429,7 @@ export const PRODUCTS: Product[] = [
     brand: "Rick Owens",
     price: 980,
     category: "Footwear",
-    images: ["/images/rick-owens-megalace-bozo-tractor-1.webp", "/images/rick-owens-megalace-bozo-tractor-2.webp"],
+    images: ["/products/rick-owens-megalace-bozo-tractor-1.webp", "/products/rick-owens-megalace-bozo-tractor-2.webp"],
     slug: "rick-owens-megalace-bozo-tractor",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Striking sculptural footwear with exaggerated treaded rubber soles and chunky lacing."
@@ -440,7 +440,7 @@ export const PRODUCTS: Product[] = [
     brand: "Rick Owens",
     price: 790,
     category: "Footwear",
-    images: ["/images/rick-owens-suede-abstract-runner-1.webp", "/images/rick-owens-suede-abstract-runner-2.webp"],
+    images: ["/products/rick-owens-suede-abstract-runner-1.webp", "/products/rick-owens-suede-abstract-runner-2.webp"],
     slug: "rick-owens-suede-abstract-runner",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Curved geometric platform sole paired with luxurious textured suede uppers."
@@ -451,7 +451,7 @@ export const PRODUCTS: Product[] = [
     brand: "Rick Owens",
     price: 760,
     category: "Footwear",
-    images: ["/images/rick-owens-vintage-sneaks-1.webp", "/images/rick-owens-vintage-sneaks-2.webp"],
+    images: ["/products/rick-owens-vintage-sneaks-1.webp", "/products/rick-owens-vintage-sneaks-2.webp"],
     slug: "rick-owens-vintage-sneaks",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Retro athletic inspired luxury sneaker crafted from premium treated calf leather."
@@ -462,7 +462,7 @@ export const PRODUCTS: Product[] = [
     brand: "Rick Owens",
     price: 810,
     category: "Footwear",
-    images: ["/images/rick-owens-geth-runner-1.webp", "/images/rick-owens-geth-runner-2.webp"],
+    images: ["/products/rick-owens-geth-runner-1.webp", "/products/rick-owens-geth-runner-2.webp"],
     slug: "rick-owens-geth-runner",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Aggressive flared sole construction with oversized padded collar architecture."
@@ -473,7 +473,7 @@ export const PRODUCTS: Product[] = [
     brand: "Rick Owens",
     price: 730,
     category: "Footwear",
-    images: ["/images/rick-owens-bumper-sneaker-1.webp", "/images/rick-owens-bumper-sneaker-2.webp"],
+    images: ["/products/rick-owens-bumper-sneaker-1.webp", "/products/rick-owens-bumper-sneaker-2.webp"],
     slug: "rick-owens-bumper-sneaker",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Minimalist low-top silhouette anchored by a pronounced wrap-around rubber bumper."
@@ -484,7 +484,7 @@ export const PRODUCTS: Product[] = [
     brand: "Rick Owens",
     price: 690,
     category: "Footwear",
-    images: ["/images/rick-owens-low-sneaks-1.webp", "/images/rick-owens-low-sneaks-2.webp"],
+    images: ["/products/rick-owens-low-sneaks-1.webp", "/products/rick-owens-low-sneaks-2.webp"],
     slug: "rick-owens-low-sneaks",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Sleek low-profile luxury leather sneaker with clean lines and serrated outsoles."
@@ -497,7 +497,7 @@ export const PRODUCTS: Product[] = [
     brand: "ASICS",
     price: 150,
     category: "Footwear",
-    images: ["/images/asics-gel-kayano-14-1.webp", "/images/asics-gel-kayano-14-2.webp"],
+    images: ["/products/asics-gel-kayano-14-1.webp", "/products/asics-gel-kayano-14-2.webp"],
     slug: "asics-gel-kayano-14",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Late 2000s running icon reimagined with metallic overlays and GEL technology."
@@ -508,7 +508,7 @@ export const PRODUCTS: Product[] = [
     brand: "ASICS",
     price: 160,
     category: "Footwear",
-    images: ["/images/asics-gel-nimbus-9-1.webp", "/images/asics-gel-nimbus-9-2.webp"],
+    images: ["/products/asics-gel-nimbus-9-1.webp", "/products/asics-gel-nimbus-9-2.webp"],
     slug: "asics-gel-nimbus-9",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Originally a marathon runner, now styled for industrial techwear aesthetics."
@@ -519,7 +519,7 @@ export const PRODUCTS: Product[] = [
     brand: "ASICS",
     price: 130,
     category: "Footwear",
-    images: ["/images/asics-gt-2160-1.webp", "/images/asics-gt-2160-2.webp"],
+    images: ["/products/asics-gt-2160-1.webp", "/products/asics-gt-2160-2.webp"],
     slug: "asics-gt-2160",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Honors the design language of the classic GT-2000 series with segmented midsole tooling."
@@ -530,7 +530,7 @@ export const PRODUCTS: Product[] = [
     brand: "ASICS",
     price: 145,
     category: "Footwear",
-    images: ["/images/asics-gel-nyc-1.webp", "/images/asics-gel-nyc-2.webp"],
+    images: ["/products/asics-gel-nyc-1.webp", "/products/asics-gel-nyc-2.webp"],
     slug: "asics-gel-nyc",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Urban heritage styling blending influences from retro and modern performance running."
@@ -541,7 +541,7 @@ export const PRODUCTS: Product[] = [
     brand: "ASICS",
     price: 120,
     category: "Footwear",
-    images: ["/images/asics-gel-sonoma-15-50-1.webp", "/images/asics-gel-sonoma-15-50-2.webp"],
+    images: ["/products/asics-gel-sonoma-15-50-1.webp", "/products/asics-gel-sonoma-15-50-2.webp"],
     slug: "asics-gel-sonoma-15-50",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Cross-country spike upper combined with trail-ready outsole traction."
@@ -552,7 +552,7 @@ export const PRODUCTS: Product[] = [
     brand: "ASICS",
     price: 190,
     category: "Footwear",
-    images: ["/images/asics-gel-quantum-360-1.webp", "/images/asics-gel-quantum-360-2.webp"],
+    images: ["/products/asics-gel-quantum-360-1.webp", "/products/asics-gel-quantum-360-2.webp"],
     slug: "asics-gel-quantum-360",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Continuous 360-degree GEL cushioning units for maximum shock absorption."
@@ -563,7 +563,7 @@ export const PRODUCTS: Product[] = [
     brand: "ASICS",
     price: 130,
     category: "Footwear",
-    images: ["/images/asics-gel-lyte-iii-1.webp", "/images/asics-gel-lyte-iii-2.webp"],
+    images: ["/products/asics-gel-lyte-iii-1.webp", "/products/asics-gel-lyte-iii-2.webp"],
     slug: "asics-gel-lyte-iii",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Famous split-tongue design providing a secure, glove-like lockdown fit."
@@ -574,7 +574,7 @@ export const PRODUCTS: Product[] = [
     brand: "ASICS",
     price: 90,
     category: "Footwear",
-    images: ["/images/asics-japan-s-1.webp", "/images/asics-japan-s-2.webp"],
+    images: ["/products/asics-japan-s-1.webp", "/products/asics-japan-s-2.webp"],
     slug: "asics-japan-s",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Court-inspired retro throwback with clean leather overlays and lightweight cupsole."
@@ -585,7 +585,7 @@ export const PRODUCTS: Product[] = [
     brand: "ASICS",
     price: 120,
     category: "Footwear",
-    images: ["/images/asics-ex89-1.webp", "/images/asics-ex89-2.webp"],
+    images: ["/products/asics-ex89-1.webp", "/products/asics-ex89-2.webp"],
     slug: "asics-ex89",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Basketball heritage model updated with FF BLAST cushioning technology."
@@ -596,7 +596,7 @@ export const PRODUCTS: Product[] = [
     brand: "ASICS",
     price: 160,
     category: "Footwear",
-    images: ["/images/asics-trabuco-max-1.webp", "/images/asics-trabuco-max-2.webp"],
+    images: ["/products/asics-trabuco-max-1.webp", "/products/asics-trabuco-max-2.webp"],
     slug: "asics-trabuco-max",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Advanced trail running shoe designed to save energy over long-distance terrain."
