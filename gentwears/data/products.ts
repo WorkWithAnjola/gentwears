@@ -161,7 +161,7 @@ export const PRODUCTS: Product[] = [
     brand: "Adidas",
     price: 120,
     category: "Footwear",
-    images: ["/images/adidas-samba-og-1.webp", "/images/adidas-samba-og-2.webp"],
+    images: ["/images/adidas-samba-og-1.JPG", "/images/adidas-samba-og-2.JPG"],
     slug: "adidas-samba-og",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "The timeless indoor football shoe turned global streetwear icon."
@@ -172,7 +172,7 @@ export const PRODUCTS: Product[] = [
     brand: "Adidas",
     price: 125,
     category: "Footwear",
-    images: ["/images/adidas-gazelle-indoor-1.webp", "/images/adidas-gazelle-indoor-2.webp"],
+    images: ["/images/adidas-gazelle-indoor-1.JPG", "/images/adidas-gazelle-indoor-2.JPG"],
     slug: "adidas-gazelle-indoor",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Rich suede upper sitting atop a translucent gum rubber outsole."
@@ -194,7 +194,7 @@ export const PRODUCTS: Product[] = [
     brand: "Adidas",
     price: 230,
     category: "Footwear",
-    images: ["/images/adidas-yeezy-boost-350-v2-1.webp", "/images/adidas-yeezy-boost-350-v2-2.webp"],
+    images: ["/images/adidas-yeezy-boost-350-v2-1.JPG", "/images/adidas-yeezy-boost-350-v2-2.JPG"],
     slug: "adidas-yeezy-boost-350-v2",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Primeknit upper combined with responsive Boost cushioning for peerless comfort."
@@ -205,7 +205,7 @@ export const PRODUCTS: Product[] = [
     brand: "Adidas",
     price: 110,
     category: "Footwear",
-    images: ["/images/adidas-stan-smith-1.webp", "/images/adidas-stan-smith-2.webp"],
+    images: ["/images/adidas-stan-smith-1.JPG", "/images/adidas-stan-smith-2.JPG"],
     slug: "adidas-stan-smith",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "The quintessential clean tennis shoe with minimalist perforated 3-Stripes."
@@ -216,7 +216,7 @@ export const PRODUCTS: Product[] = [
     brand: "Adidas",
     price: 115,
     category: "Footwear",
-    images: ["/images/adidas-superstar-1.webp", "/images/adidas-superstar-2.webp"],
+    images: ["/images/adidas-superstar-1.JPG", "/images/adidas-superstar-2.JPG"],
     slug: "adidas-superstar",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Recognizable worldwide by its iconic rubber shell toe design."
@@ -227,7 +227,7 @@ export const PRODUCTS: Product[] = [
     brand: "Adidas",
     price: 135,
     category: "Footwear",
-    images: ["/images/adidas-forum-low-1.webp", "/images/adidas-forum-low-2.webp"],
+    images: ["/images/adidas-forum-low-1.JPG", "/images/adidas-forum-low-2.JPG"],
     slug: "adidas-forum-low",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "B-ball legacy with an adjustable ankle strap and premium leather build."
@@ -238,7 +238,7 @@ export const PRODUCTS: Product[] = [
     brand: "Adidas",
     price: 120,
     category: "Footwear",
-    images: ["/images/adidas-spezial-1.webp", "/images/adidas-spezial-2.webp"],
+    images: ["/images/adidas-spezial-1.JPG", "/images/adidas-spezial-2.JPG"],
     slug: "adidas-spezial",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Classic terrace footwear built with soft suede and vintage T-toe overlays."
@@ -249,7 +249,7 @@ export const PRODUCTS: Product[] = [
     brand: "Adidas",
     price: 140,
     category: "Footwear",
-    images: ["/images/adidas-nmd-r1-1.webp", "/images/adidas-nmd-r1-2.webp"],
+    images: ["/images/adidas-nmd-r1-1.JPG", "/images/adidas-nmd-r1-2.JPG"],
     slug: "adidas-nmd-r1",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Urban runner equipped with signature midsole plugs and energy-returning Boost."
@@ -260,7 +260,7 @@ export const PRODUCTS: Product[] = [
     brand: "Adidas",
     price: 190,
     category: "Footwear",
-    images: ["/images/adidas-ultraboost-light-1.webp", "/images/adidas-ultraboost-light-2.webp"],
+    images: ["/images/adidas-ultraboost-light-1.JPG", "/images/adidas-ultraboost-light-2.JPG"],
     slug: "adidas-ultraboost-light",
     sizes: ["US 8", "US 8.5", "US 9", "US 9.5", "US 10", "US 10.5", "US 11"],
     description: "Our lightest Ultraboost ever featuring maximum cushioning and responsiveness."
