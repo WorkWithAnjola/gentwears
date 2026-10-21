@@ -12,10 +12,10 @@ import WhatsAppBuyButton from "./WhatsAppBuyButton";
 import DeliveryReturns from "./DeliveryReturns";
 
 export default function ProductInfo({ product }: { product: Product }) {
-  const [size, setSize] = useState(product.sizes[0]);
+  const [size, setSize] = useState(product.sizes?.[0] || "");
   const { addToCart } = useCart();
   const { toggleWish, isWished } = useWishlist();
-  const wished = isWished(product.id);
+  const wished = isWished(Number(product.id));
 
   return (
     <div className="pt-2">
@@ -40,7 +40,7 @@ export default function ProductInfo({ product }: { product: Product }) {
         <SizeGuide product={product} />
       </div>
       <div className="flex flex-wrap gap-2 mb-8">
-        {product.sizes.map((s) => (
+        {product.sizes?.map((s) => (
           <button
             key={s}
             onClick={() => setSize(s)}

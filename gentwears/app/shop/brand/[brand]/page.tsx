@@ -18,7 +18,7 @@ export default function BrandPage({ params }: { params: { brand: string } }) {
   const brand = RETAIL_BRANDS.find((b) => brandSlug(b) === params.brand);
   if (!brand) notFound();
 
-  const products = PRODUCTS.filter((p) => p.retailBrand === brand);
+  const products = PRODUCTS.filter((p) => p.brand === brand);
 
   return (
     <section className="max-w-7xl mx-auto px-5 md:px-8 py-16">

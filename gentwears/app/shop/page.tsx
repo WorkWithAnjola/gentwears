@@ -20,7 +20,7 @@ function ShopContent() {
       PRODUCTS.filter(
         (p) =>
           (category === "All" || p.category === category) &&
-          (brand === "All" || p.retailBrand === brand)
+          (brand === "All" || p.brand === brand)
       ),
     [category, brand]
   );

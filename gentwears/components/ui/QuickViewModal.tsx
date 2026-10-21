@@ -10,7 +10,7 @@ import { useCart } from "@/context/CartContext";
 import Button from "./Button";
 
 export default function QuickViewModal({ product, onClose }: { product: Product; onClose: () => void }) {
-  const [size, setSize] = useState(product.sizes[0]);
+  const [size, setSize] = useState(product.sizes?.[0] || "");
   const { addToCart } = useCart();
 
   return (
@@ -29,7 +29,7 @@ export default function QuickViewModal({ product, onClose }: { product: Product;
           <p className="text-lg mb-4">{formatNaira(product.price)}</p>
           <p className="text-sm text-stone leading-relaxed mb-6">{product.description}</p>
           <div className="flex flex-wrap gap-2 mb-6">
-            {product.sizes.map((s) => (
+           {product.sizes?.map((s) => (
               <button
                 key={s}
                 onClick={() => setSize(s)}

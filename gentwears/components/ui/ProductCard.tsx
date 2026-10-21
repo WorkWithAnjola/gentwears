@@ -13,8 +13,7 @@ export default function ProductCard({ product, onQuickView }: { product: Product
   const [hover, setHover] = useState(false);
   const { addToCart } = useCart();
   const { toggleWish, isWished } = useWishlist();
-  const wished = isWished(product.id);
-
+  const wished = isWished(Number(product.id));
   return (
     <div className="group animate-fadeUp">
       <div
@@ -54,7 +53,7 @@ export default function ProductCard({ product, onQuickView }: { product: Product
             Quick View
           </button>
           <button
-            onClick={() => addToCart(product, product.sizes[0])}
+            onClick={() => addToCart(product, product.sizes?.[0] || "")}
             className="flex-1 bg-ink text-ivory font-body text-[11px] tracking-[0.15em] uppercase py-3 hover:bg-gold hover:text-ink"
           >
             Add to Cart
