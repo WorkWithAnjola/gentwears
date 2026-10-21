@@ -1,90 +1,77 @@
-"use client";
-
 import { useState } from "react";
-import { X, Ruler } from "lucide-react";
 import { Product } from "@/types";
 
-const CLOTHING_SIZES = [
-  { size: "S", chest: '36-38"', waist: '30-32"' },
-  { size: "M", chest: '39-41"', waist: '33-35"' },
-  { size: "L", chest: '42-44"', waist: '36-38"' },
-  { size: "XL", chest: '45-47"', waist: '39-41"' },
-];
-
-const SHOE_SIZES = [
-  { eu: "40", uk: "6.5", us: "7.5" },
-  { eu: "41", uk: "7.5", us: "8.5" },
-  { eu: "42", uk: "8", us: "9" },
-  { eu: "43", uk: "9", us: "10" },
-  { eu: "44", uk: "9.5", us: "10.5" },
-  { eu: "45", uk: "10.5", us: "11.5" },
-];
-
 export default function SizeGuide({ product }: { product: Product }) {
-  const [open, setOpen] = useState(false);
-  const isShoe = product.category === "Shoes";
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <>
-      <button
-        onClick={() => setOpen(true)}
-        className="flex items-center gap-1.5 text-xs tracking-[0.15em] uppercase text-muted hover:text-gold underline underline-offset-4"
+      <button 
+        onClick={() => setIsOpen(true)}
+        className="text-xs tracking-[0.2em] uppercase text-muted underline hover:text-ink"
       >
-        <Ruler size={13} /> Size Guide
+        Size Guide
       </button>
 
-      {open && (
-        <div className="fixed inset-0 z-[140] flex items-center justify-center p-4">
-          <div className="absolute inset-0 bg-ink/60" onClick={() => setOpen(false)} />
-          <div className="relative bg-ivory max-w-md w-full p-7 animate-fadeUp">
-            <button onClick={() => setOpen(false)} className="absolute top-5 right-5" aria-label="Close">
-              <X size={18} />
+      {isOpen && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4">
+          <div className="relative w-full max-w-md bg-ivory p-6 rounded shadow-lg">
+            <button 
+              onClick={() => setIsOpen(false)}
+              className="absolute top-4 right-4 text-ink hover:text-muted text-lg font-bold"
+            >
+              &times;
             </button>
-            <h3 className="font-display text-2xl mb-1">Size Guide</h3>
-            <p className="text-xs text-muted mb-6">{isShoe ? "Shoe sizing (EU / UK / US)" : "Clothing sizing (inches)"}</p>
-
-            {isShoe ? (
-              <table className="w-full text-sm">
-                <thead>
-                  <tr className="border-b border-ink/10 text-left text-xs uppercase tracking-wide text-muted">
-                    <th className="pb-2">EU</th>
-                    <th className="pb-2">UK</th>
-                    <th className="pb-2">US</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {SHOE_SIZES.map((s) => (
-                    <tr key={s.eu} className="border-b border-ink/5">
-                      <td className="py-2">{s.eu}</td>
-                      <td className="py-2">{s.uk}</td>
-                      <td className="py-2">{s.us}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            ) : (
-              <table className="w-full text-sm">
-                <thead>
-                  <tr className="border-b border-ink/10 text-left text-xs uppercase tracking-wide text-muted">
-                    <th className="pb-2">Size</th>
-                    <th className="pb-2">Chest</th>
-                    <th className="pb-2">Waist</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {CLOTHING_SIZES.map((s) => (
-                    <tr key={s.size} className="border-b border-ink/5">
-                      <td className="py-2">{s.size}</td>
-                      <td className="py-2">{s.chest}</td>
-                      <td className="py-2">{s.waist}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            )}
-            <p className="text-xs text-muted mt-5">
-              Between sizes? We recommend sizing up. Message us on WhatsApp for a personal fit check.
-            </p>
+            
+            <h3 className="text-lg font-display mb-2">Footwear Size Guide</h3>
+            <p className="text-xs text-muted mb-4">Standard US Sizing</p>
+            
+            <table className="w-full text-sm text-left">
+              <thead>
+                <tr className="border-b border-ink/10">
+                  <th className="pb-2 font-medium">US Size</th>
+                  <th className="pb-2 font-medium">UK Size</th>
+                  <th className="pb-2 font-medium">EU Size</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-ink/10">
+                <tr>
+                  <td className="py-2">US 8</td>
+                  <td className="py-2">7</td>
+                  <td className="py-2">41</td>
+                </tr>
+                <tr>
+                  <td className="py-2">US 8.5</td>
+                  <td className="py-2">7.5</td>
+                  <td className="py-2">42</td>
+                </tr>
+                <tr>
+                  <td className="py-2">US 9</td>
+                  <td className="py-2">8</td>
+                  <td className="py-2">42.5</td>
+                </tr>
+                <tr>
+                  <td className="py-2">US 9.5</td>
+                  <td className="py-2">8.5</td>
+                  <td className="py-2">43</td>
+                </tr>
+                <tr>
+                  <td className="py-2">US 10</td>
+                  <td className="py-2">9</td>
+                  <td className="py-2">44</td>
+                </tr>
+                <tr>
+                  <td className="py-2">US 10.5</td>
+                  <td className="py-2">9.5</td>
+                  <td className="py-2">44.5</td>
+                </tr>
+                <tr>
+                  <td className="py-2">US 11</td>
+                  <td className="py-2">10</td>
+                  <td className="py-2">45</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       )}
