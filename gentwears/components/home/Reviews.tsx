@@ -10,7 +10,7 @@ export default function Reviews() {
         {REVIEWS.map((r, i) => (
           <div key={i} className="border border-ink/10 p-7">
             <div className="mb-4"><StarRating rating={r.rating} /></div>
-            <p className="text-sm text-stone leading-relaxed mb-5">&ldquo;{r.comment}&rdquo;</p>
+            <p className="text-sm text-stone leading-relaxed mb-5">&ldquo;{r.text}&rdquo;</p>
             <p className="text-xs tracking-[0.15em] uppercase text-muted">{r.name}</p>
           </div>
         ))}
