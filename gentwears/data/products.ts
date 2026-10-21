@@ -11,12 +11,34 @@ export interface Product {
   description: string;
 }
 
+export interface Review {
+  id: number;
+  name: string;
+  text: string;
+  rating: number;
+}
+
 export const RETAIL_BRANDS = [
   "Nike",
   "Adidas",
   "New Balance",
   "Rick Owens",
   "ASICS"
+];
+
+export const REVIEWS: Review[] = [
+  {
+    id: 1,
+    name: "Tunde O.",
+    text: "Absolute top-tier quality. The packaging and delivery were seamless. Will definitely order again!",
+    rating: 5
+  },
+  {
+    id: 2,
+    name: "Marcus A.",
+    text: "The selection of brands and product presentation are unmatched. Exceptional customer experience.",
+    rating: 5
+  }
 ];
 
 export const PRODUCTS: Product[] = [
