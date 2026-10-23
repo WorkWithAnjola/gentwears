@@ -4,15 +4,12 @@ import Image from "next/image";
 export default function CTABand() {
   return (
     <section className="relative h-[60vh] md:h-[70vh] w-full flex items-center justify-center overflow-hidden my-12 bg-stone/20">
-      {/* Mid-Banner Background Image */}
       <Image
-        src="/cta-banner.JPG"
-        alt="Gentwears New Season"
+        src="/images/mens-clothing.webp"
+        alt="Gentwears Collection"
         fill
         className="object-cover brightness-[0.85]"
       />
-
-      {/* Content Overlay */}
       <div className="relative z-10 max-w-4xl mx-auto px-5 text-center text-white space-y-6">
         <h2 className="font-display text-3xl md:text-5xl tracking-wide">
           New season. Same standard.
@@ -20,7 +17,6 @@ export default function CTABand() {
         <p className="text-sm md:text-base text-stone-200 max-w-md mx-auto font-light">
           Explore our latest collection crafted for everyday distinction.
         </p>
-        
         <div>
           <Link
             href="/shop"
