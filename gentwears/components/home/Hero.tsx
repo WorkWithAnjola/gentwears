@@ -20,17 +20,17 @@ export default function Hero() {
           Explore our latest curation of premium menswear and footwear designed for everyday distinction.
         </p>
         
-        {/* Button Group: Explore the Edit & Our Story */}
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-2">
+        {/* Compact Side-by-Side Buttons */}
+        <div className="flex flex-row items-center justify-center gap-3 pt-2">
           <Link
             href="/shop"
-            className="w-full sm:w-auto inline-block bg-gold text-ink font-medium px-8 py-3.5 text-xs tracking-[0.2em] uppercase hover:bg-gold/90 transition-colors rounded-sm shadow-md"
+            className="bg-gold text-ink font-medium px-6 py-3 text-xs tracking-[0.2em] uppercase hover:bg-gold/90 transition-colors rounded-sm shadow-md"
           >
             Explore the Edit
           </Link>
           <Link
             href="/about"
-            className="w-full sm:w-auto inline-block border border-white/80 text-white font-medium px-8 py-3.5 text-xs tracking-[0.2em] uppercase hover:bg-white/10 transition-colors rounded-sm shadow-md"
+            className="border border-white/80 text-white font-medium px-6 py-3 text-xs tracking-[0.2em] uppercase hover:bg-white/10 transition-colors rounded-sm shadow-md"
           >
             Our Story
           </Link>
