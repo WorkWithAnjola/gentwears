@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const metadata = {
   title: "Our Story — Gentwears",
-  description: "Discover the story behind Gentwears, your premier destination for menswear and footwear in Lagos.",
+  description: "Discover the story behind Gentwears, your premier destination for menswear and footwear.",
 };
 
 export default function AboutPage() {
@@ -15,7 +15,7 @@ export default function AboutPage() {
       <div className="relative w-full h-[350px] md:h-[450px] mb-12 bg-stone/10 overflow-hidden rounded-sm">
         <Image
           src="/products/about-studio.JPG"
-          alt="Gentwears Studio Lagos"
+          alt="Gentwears Studio"
           fill
           className="object-cover"
           priority
@@ -26,14 +26,14 @@ export default function AboutPage() {
         <div>
           <h2 className="text-ink font-medium text-lg mb-3">Moving With Intent</h2>
           <p>
-            Founded in Lagos, a city defined by relentless motion and ambition, Gentwears was built for men who move with purpose. We believe that what you wear is an extension of your drive. Every piece in our collection is carefully chosen to reflect understated elegance, rugged durability, and effortless style.
+            Gentwears was built for men who move with purpose. We believe that what you wear is an extension of your drive. Every piece in our collection is carefully chosen to reflect understated elegance, rugged durability, and effortless style.
           </p>
         </div>
 
         <div>
           <h2 className="text-ink font-medium text-lg mb-3">Curated Menswear and Footwear</h2>
           <p>
-            From high-end technical sneakers and iconic streetwear silhouettes to tailored menswear essentials, we bridge the gap between luxury and everyday utility. We source exceptional pieces designed to stand the test of time, ensuring you look sharp whether you are stepping into a boardroom or navigating the city streets.
+            From high-end technical sneakers and iconic streetwear silhouettes to tailored menswear essentials, we bridge the gap between luxury and everyday utility. We source exceptional pieces designed to stand the test of time, ensuring you look sharp whether you are stepping into a boardroom or navigating your daily routine.
           </p>
         </div>
 
