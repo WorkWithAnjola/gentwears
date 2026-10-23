@@ -14,7 +14,7 @@ export default function AboutPage() {
       {/* Studio Image Showcase */}
       <div className="relative w-full h-[350px] md:h-[450px] mb-12 bg-stone/10 overflow-hidden rounded-sm">
         <Image
-          src="/products/about-studio.jpg"
+          src="/about-studio.jpg"
           alt="Gentwears Studio"
           fill
           className="object-cover"
