@@ -25,22 +25,22 @@ const CONTACT_CHANNELS = [
   {
     icon: Mail,
     label: "Email",
-    value: "gentwears22@gmail.com",
-    href: "mailto:gentwears22@gmail.com",
+    value: "mygentwears@gmail.com",
+    href: "mailto:mygentwears@gmail.com",
     accent: "border border-ink/20 hover:bg-ink hover:text-ivory",
   },
   {
     icon: Instagram,
     label: "Instagram",
-    value: "@_gentwears",
-    href: "https://instagram.com/_gentwears",
+    value: "@mygentwears",
+    href: "https://instagram.com/mygentwears",
     accent: "border border-ink/20 hover:bg-ink hover:text-ivory",
   },
   {
     icon: TikTokIcon,
     label: "TikTok",
-    value: "@_gentwears",
-    href: "https://www.tiktok.com/@_gentwears",
+    value: "@mygentwears",
+    href: "https://www.tiktok.com/@mygentwears",
     accent: "border border-ink/20 hover:bg-ink hover:text-ivory",
   },
 ];
