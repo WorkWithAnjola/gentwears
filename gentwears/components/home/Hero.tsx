@@ -6,7 +6,7 @@ export default function Hero() {
     <section className="relative h-[70vh] md:h-[80vh] w-full flex items-center justify-center overflow-hidden bg-stone/20">
       {/* Hero Background Image */}
       <Image
-        src="/hero-banner.jpg"
+        src="/hero-banner.JPG"
         alt="Gentwears New Season"
         fill
         className="object-cover brightness-[0.85]"
