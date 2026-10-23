@@ -1,33 +1,34 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ChevronRight } from "lucide-react";
-import Button from "@/components/ui/Button";
 
 export default function Hero() {
   return (
-    <section className="relative h-[92vh] min-h-[560px] overflow-hidden">
+    <section className="relative h-[70vh] md:h-[80vh] w-full flex items-center justify-center overflow-hidden bg-stone/20">
+      {/* Hero Background Image */}
       <Image
-        src="/images/homepage-hero.webp"
-        alt="Excited man holding colorful shopping bags"
+        src="/hero-banner.jpg"
+        alt="Gentwears New Season"
         fill
+        className="object-cover brightness-[0.85]"
         priority
-        className="object-cover"
       />
-      <div className="absolute inset-0 bg-gradient-to-t from-ink/85 via-ink/25 to-ink/10" />
-      <div className="relative h-full max-w-7xl mx-auto px-5 md:px-8 flex flex-col justify-end pb-16 md:pb-24">
-        <p className="animate-fadeUp font-body text-xs md:text-sm tracking-[0.35em] uppercase text-gold mb-4">
-          Menswear · Unisex Footwear
-        </p>
-        <h1 className="animate-fadeUp font-display text-[13vw] leading-[0.95] md:text-8xl text-ivory font-medium max-w-3xl">
-          Dressed with intent.
+
+      {/* Content Overlay */}
+      <div className="relative z-10 max-w-4xl mx-auto px-5 text-center text-white space-y-6">
+        <h1 className="font-display text-4xl md:text-6xl tracking-wide">
+          New season. Same standard.
         </h1>
-        <p className="animate-fadeUp font-body text-ivory/80 max-w-md mt-6 text-sm md:text-base leading-relaxed">
-          Gentwears is premium menswear and unisex footwear for men who move deliberately — confident,
-          understated, unmistakably theirs.
+        <p className="text-sm md:text-base text-stone-200 max-w-lg mx-auto font-light">
+          Explore our latest curation of premium menswear and footwear designed for everyday distinction.
         </p>
-        <div className="animate-fadeUp mt-8 flex gap-4">
-          <Link href="/shop"><Button variant="gold">Shop Collection <ChevronRight size={14} /></Button></Link>
-          <Link href="/about"><Button variant="ghost">Our Story</Button></Link>
+        
+        <div>
+          <Link
+            href="/shop"
+            className="inline-block bg-gold text-ink font-medium px-8 py-3.5 text-xs tracking-[0.2em] uppercase hover:bg-gold/90 transition-colors rounded-sm shadow-md"
+          >
+            Explore the Edit
+          </Link>
         </div>
       </div>
     </section>
