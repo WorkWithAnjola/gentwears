@@ -35,7 +35,7 @@ export default function DeliveryReturns() {
         </p>
         <p>
           To start a return, message us on WhatsApp with your order number. See our full{" "}
-          <a href="/legal/returns" className="underline text-ink hover:text-gold">Returns Policy</a> for details.
+          <a href="/returns-policy" className="underline text-ink hover:text-gold">Returns Policy</a> for details.
         </p>
       </AccordionItem>
     </div>
