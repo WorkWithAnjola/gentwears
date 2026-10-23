@@ -1,53 +1,55 @@
 import Image from "next/image";
-import { img } from "@/lib/utils";
 
 export const metadata = {
   title: "Our Story — Gentwears",
-  description: "The story, mission, and style philosophy behind Gentwears.",
+  description: "Discover the story behind Gentwears, your premier destination for menswear and footwear in Lagos.",
 };
 
 export default function AboutPage() {
   return (
-    <>
-      <section className="relative h-[60vh] min-h-[420px] overflow-hidden">
-        <Image src={img("photo-1490114538077-0a7f8cb49891")} alt="About Gentwears" fill className="object-cover" />
-        <div className="absolute inset-0 bg-ink/50 flex items-end">
-          <div className="max-w-7xl mx-auto w-full px-5 md:px-8 pb-14">
-            <h1 className="font-display text-5xl md:text-7xl text-ivory max-w-4xl">Our Story</h1>
-          </div>
-        </div>
-      </section>
+    <section className="max-w-4xl mx-auto px-5 md:px-8 py-20 text-ink">
+      <p className="text-xs tracking-[0.2em] uppercase text-muted mb-2">The Brand</p>
+      <h1 className="font-display text-4xl md:text-5xl mb-8">Our Story</h1>
 
-      <section className="max-w-3xl mx-auto px-6 py-24 space-y-16">
+      {/* Studio Image Showcase */}
+      <div className="relative w-full h-[350px] md:h-[450px] mb-12 bg-stone/10 overflow-hidden rounded-sm">
+        <Image
+          src="/products/about-studio.JPG"
+          alt="Gentwears Studio Lagos"
+          fill
+          className="object-cover"
+          priority
+        />
+      </div>
+
+      <div className="space-y-8 text-stone leading-relaxed">
         <div>
-          <p className="text-xs tracking-[0.2em] uppercase text-gold mb-3">Our Vision</p>
-          <p className="font-display text-2xl md:text-3xl leading-snug">
-            To dress a generation of men who understand that real confidence doesn&apos;t need to shout.
-          </p>
-          <p className="mt-4 text-stone leading-relaxed">
-            Gentwears began with a simple frustration: most menswear either tried too hard or didn&apos;t
-            try at all. We set out to build the space between — pieces cut with intent, made to be worn
-            for years, not seasons.
-          </p>
-        </div>
-        <div>
-          <p className="text-xs tracking-[0.2em] uppercase text-gold mb-3">Our Style Philosophy</p>
-          <p className="text-stone leading-relaxed">
-            Every Gentwears piece sits at the intersection of tailoring and street sensibility. Structured
-            where it matters, relaxed where it counts. We work in a disciplined palette — ink, ivory, sand,
-            and a single gold thread — so that the fit and the fabric do the talking, not the noise.
+          <h2 className="text-ink font-medium text-lg mb-3">Moving With Intent</h2>
+          <p>
+            Founded in Lagos, a city defined by relentless motion and ambition, Gentwears was built for men who move with purpose. We believe that what you wear is an extension of your drive. Every piece in our collection is carefully chosen to reflect understated elegance, rugged durability, and effortless style.
           </p>
         </div>
+
         <div>
-          <p className="text-xs tracking-[0.2em] uppercase text-gold mb-3">Why Gentwears</p>
-          <ul className="space-y-3 text-stone">
-            <li className="flex gap-3"><span className="text-gold">—</span> Premium fabrics sourced for drape, not just durability</li>
-            <li className="flex gap-3"><span className="text-gold">—</span> Unisex footwear built on a genuinely shared last, not a resized men&apos;s shoe</li>
-            <li className="flex gap-3"><span className="text-gold">—</span> Small-batch production — we&apos;d rather sell out than dilute quality</li>
-            <li className="flex gap-3"><span className="text-gold">—</span> A team that actually answers on WhatsApp</li>
-          </ul>
+          <h2 className="text-ink font-medium text-lg mb-3">Curated Menswear and Footwear</h2>
+          <p>
+            From high-end technical sneakers and iconic streetwear silhouettes to tailored menswear essentials, we bridge the gap between luxury and everyday utility. We source exceptional pieces designed to stand the test of time, ensuring you look sharp whether you are stepping into a boardroom or navigating the city streets.
+          </p>
         </div>
-      </section>
-    </>
+
+        <div>
+          <h2 className="text-ink font-medium text-lg mb-3">Personalized Service</h2>
+          <p>
+            We do things differently. By keeping our checkout personal and direct through WhatsApp, we ensure every single customer gets tailored sizing advice, real-time updates, and VIP attention from the moment you browse to the moment your order arrives at your door.
+          </p>
+        </div>
+
+        <div className="pt-8 border-t border-stone/20">
+          <p className="text-sm font-medium text-ink">
+            Welcome to Gentwears. Step into confidence.
+          </p>
+        </div>
+      </div>
+    </section>
   );
 }
