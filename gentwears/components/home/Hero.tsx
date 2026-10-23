@@ -4,16 +4,13 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <section className="relative h-[70vh] md:h-[80vh] w-full flex items-center justify-center overflow-hidden bg-stone/20">
-      {/* Hero Background Image */}
       <Image
-        src="/hero-banner.JPG"
+        src="/images/homepage-hero.webp"
         alt="Gentwears New Season"
         fill
         className="object-cover brightness-[0.85]"
         priority
       />
-
-      {/* Content Overlay */}
       <div className="relative z-10 max-w-4xl mx-auto px-5 text-center text-white space-y-6">
         <h1 className="font-display text-4xl md:text-6xl tracking-wide">
           New season. Same standard.
@@ -21,7 +18,6 @@ export default function Hero() {
         <p className="text-sm md:text-base text-stone-200 max-w-lg mx-auto font-light">
           Explore our latest curation of premium menswear and footwear designed for everyday distinction.
         </p>
-        
         <div>
           <Link
             href="/shop"
