@@ -11,6 +11,7 @@ export default function Hero() {
         className="object-cover brightness-[0.85]"
         priority
       />
+      
       <div className="relative z-10 max-w-4xl mx-auto px-5 text-center text-white space-y-6">
         <h1 className="font-display text-4xl md:text-6xl tracking-wide">
           New season. Same standard.
@@ -18,12 +19,20 @@ export default function Hero() {
         <p className="text-sm md:text-base text-stone-200 max-w-lg mx-auto font-light">
           Explore our latest curation of premium menswear and footwear designed for everyday distinction.
         </p>
-        <div>
+        
+        {/* Button Group: Explore the Edit & Our Story */}
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-2">
           <Link
             href="/shop"
-            className="inline-block bg-gold text-ink font-medium px-8 py-3.5 text-xs tracking-[0.2em] uppercase hover:bg-gold/90 transition-colors rounded-sm shadow-md"
+            className="w-full sm:w-auto inline-block bg-gold text-ink font-medium px-8 py-3.5 text-xs tracking-[0.2em] uppercase hover:bg-gold/90 transition-colors rounded-sm shadow-md"
           >
             Explore the Edit
+          </Link>
+          <Link
+            href="/about"
+            className="w-full sm:w-auto inline-block border border-white/80 text-white font-medium px-8 py-3.5 text-xs tracking-[0.2em] uppercase hover:bg-white/10 transition-colors rounded-sm shadow-md"
+          >
+            Our Story
           </Link>
         </div>
       </div>
